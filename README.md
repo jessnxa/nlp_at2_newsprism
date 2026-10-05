@@ -76,13 +76,13 @@ pip install -r requirements.txt
 
 Each project area is developed on a separate branch before being reviewed and merged into `main`.
 
-```text
-data-preprocessing
-political-leaning
-sentiment-language
-topics-entities
-framing-summarisation
-streamlit-integration
-```
+| Project Area | Branch |
+| --- | --- |
+| Data collection & preprocessing | `jessica-data-preprocessing` |
+| Political leaning classification | `hayden-political-leaning` |
+| Sentiment & language analysis | `thimaya-sentiment-language` |
+| Topics & named entities | `ishan-topics-entities` |
+| Framing & summarisation | `robin-framing-summarisation` |
+| Streamlit, integration & UX | `lynette-streamlit-integration` |
 
 Team members commit changes to their respective branches with descriptive commit messages. Completed work is reviewed through pull requests before being merged into `main`, which contains the integrated version of NewsPrism.
