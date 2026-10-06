@@ -1,0 +1,11 @@
+# Core data processing
+pandas
+requests
+
+# Article extraction
+trafilatura
+googlenewsdecoder
+selectolax<1.0
+
+# NLP / event grouping
+scikit-learn
