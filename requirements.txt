@@ -1,0 +1,10 @@
+# Core data processing
+pandas
+requests
+
+# Article extraction
+trafilatura
+googlenewsdecoder
+
+# NLP / event grouping
+scikit-learn
