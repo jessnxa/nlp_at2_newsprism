@@ -47,6 +47,8 @@ def prepare_corpus(corpus):
     if missing:
         raise ValueError(f'corpus is missing required columns: {missing}')
     df = corpus.copy()
+    for col in ('clean_text', 'title'):  # missing text (e.g. a paywalled fetch) is treated as empty
+        df[col] = df[col].fillna('').astype(str)
     df['model_text'] = strip_boilerplate(df['clean_text'].tolist())
     return df
 
@@ -97,11 +99,14 @@ def chunk_rows(art, texts):
     } for i, text in enumerate(texts)]
 
 
+CHUNK_COLUMNS = ['chunk_id', 'article_id', 'topic', 'publisher', 'chunk_idx', 'text', 'n_words']
+
+
 def build_chunks(df, target=CHUNK_TARGET, cap=CHUNK_CAP, min_tail=CHUNK_MIN_TAIL):
     rows = []
     for art in df.itertuples(index=False):
         rows += chunk_rows(art, chunk_fixed(art.model_text, target, cap, min_tail))
-    return pd.DataFrame(rows)
+    return pd.DataFrame(rows, columns=CHUNK_COLUMNS)  # columns kept even when no article has text
 
 
 # --- embeddings ----------------------------------------------------------

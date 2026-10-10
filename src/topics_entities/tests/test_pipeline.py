@@ -27,10 +27,17 @@ class _Doc:
 
 
 class _FakeNlp:
-    """Stands in for the spaCy model: one PERSON entity in every text."""
+    """Stands in for the spaCy model: one PERSON entity in every text, or none."""
+
+    def __init__(self, with_entities=True):
+        self.with_entities = with_entities
 
     def pipe(self, texts, batch_size=32):
-        return (_Doc() for _ in texts)
+        for _ in texts:
+            doc = _Doc()
+            if not self.with_entities:
+                doc.ents = []
+            yield doc
 
 
 ARTICLE = {'article_id': 'A1', 'topic': 'housing', 'title': 'Albanese on rents', 'publisher': 'ABC News',
@@ -53,6 +60,22 @@ class ExtractEntitiesTest(unittest.TestCase):
         df = pd.DataFrame([ARTICLE])
         extract_entities(df, nlp=_FakeNlp())
         self.assertEqual(df.columns.tolist(), list(ARTICLE))
+
+
+    def test_fetched_articles_that_yield_nothing_return_empty_tables_not_errors(self):
+        cases = {
+            'no entities': (pd.DataFrame([ARTICLE]), _FakeNlp(with_entities=False)),
+            'empty text': (pd.DataFrame([dict(ARTICLE, clean_text='')]), _FakeNlp(with_entities=False)),
+            'missing text and title': (pd.DataFrame([dict(ARTICLE, clean_text=None, title=None)]),
+                                       _FakeNlp(with_entities=False)),
+            'empty batch': (pd.DataFrame(columns=list(ARTICLE)), _FakeNlp()),
+        }
+        for name, (df, nlp) in cases.items():
+            with self.subTest(name):
+                mentions, articles = extract_entities(df, nlp=nlp)
+                self.assertEqual(mentions.columns.tolist(), MENTION_COLUMNS)
+                self.assertTrue(mentions.empty and articles.empty)
+                self.assertIn('entity', articles.columns)
 
 
 if __name__ == '__main__':

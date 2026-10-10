@@ -185,6 +185,9 @@ def vote_types(mentions):
 
 # --- extraction -------------------------------------------------------------------
 
+RAW_MENTION_COLUMNS = ['article_id', 'topic', 'publisher', 'chunk_id', 'surface', 'type', 'next_word']
+
+
 def extract_mentions(corpus, nlp=None):
     """One row per kept entity mention, with normalised, resolved entity and voted type."""
     import spacy
@@ -201,7 +204,13 @@ def extract_mentions(corpus, nlp=None):
                 rows.append({'article_id': unit.article_id, 'topic': unit.topic, 'publisher': unit.publisher,
                              'chunk_id': unit.chunk_id, 'surface': ent.text, 'type': KEEP_LABELS[ent.label_],
                              'next_word': doc[ent.end].text if ent.end < len(doc) else ''})
-    m = apply_context_rules(clean_mentions(pd.DataFrame(rows)))
+    m = pd.DataFrame(rows, columns=RAW_MENTION_COLUMNS)
+    if not m.empty:
+        m = clean_mentions(m)
+    if not m.empty:
+        m = apply_context_rules(m)
+    if m.empty:  # no entity anywhere in the batch (e.g. a short or empty article)
+        return m.assign(entity=pd.Series(dtype=str), in_title=pd.Series(dtype=bool)), [], chunks
     # vote first so full names spaCy mis-typed still count as PERSON candidates, then re-vote
     m['type'] = vote_types(m)
     m['entity'], ambiguous = resolve_surnames(m)
@@ -213,6 +222,9 @@ def extract_mentions(corpus, nlp=None):
 
 def article_entities(mentions):
     """One row per (article, entity): body mention count, whether it is in the title, spellings seen."""
+    if mentions.empty:
+        return pd.DataFrame(columns=['article_id', 'topic', 'publisher', 'entity', 'type', 'n_mentions',
+                                     'in_title', 'surface_forms'])
     g = mentions.groupby(['article_id', 'topic', 'publisher', 'entity', 'type'])
     out = g.agg(n_mentions=('in_title', lambda s: int((~s).sum())), in_title=('in_title', 'any'),
                 surface_forms=('surface', lambda s: '; '.join(sorted(set(s))))).reset_index()
