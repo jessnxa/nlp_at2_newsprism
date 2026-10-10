@@ -1,0 +1,228 @@
+{
+  "ART_63F7E2634B51": {
+    "article_id": "ART_63F7E2634B51",
+    "event_id": "IMM_001",
+    "publisher": "ABC News",
+    "title": "Military called in as more than 40,000 migrants from Morocco pour into Spanish border territory",
+    "article_type": "news_report",
+    "main_country": "Spain",
+    "summary": "Spanish military and police forces were deployed to the North African enclave of Ceuta after tens of thousands of migrants crossed over from Morocco, leaving multiple people dead. Local businesses shuttered amid safety concerns, and the regional government requested an emergency declaration. The influx sparked political controversy both within Spain and across Europe regarding border controls and migration policies.",
+    "key_points": [
+      {
+        "claim": "Spanish military forces were dispatched to Ceuta to support police after migrant crossings overwhelmed border control.",
+        "attributed_to": "article narration",
+        "sentence_id": "s001",
+        "quote": "Spanish military units are being deployed to reinforce police in the city of Ceuta",
+        "check": {
+          "status": "exact",
+          "found_in": "s001",
+          "cited_ok": true
+        }
+      },
+      {
+        "claim": "An estimated 40,000 people crossed by swimming, resulting in at least 18 fatalities.",
+        "attributed_to": "Spain's interior ministry",
+        "sentence_id": "s002",
+        "quote": "Spain's interior ministry estimates more than 40,000 people swam, with 18 people declared dead from the process.",
+        "check": {
+          "status": "exact",
+          "found_in": "s002",
+          "cited_ok": true
+        }
+      },
+      {
+        "claim": "Conservative opposition leader Alberto Nuñez Feijoo declared that Spain is facing a national security crisis in Ceuta.",
+        "attributed_to": "Alberto Nuñez Feijoo",
+        "sentence_id": "s026",
+        "quote": "The government cannot look the other way... because we are facing a national security crisis.",
+        "check": {
+          "status": "exact",
+          "found_in": "s026",
+          "cited_ok": true
+        }
+      },
+      {
+        "claim": "Local business owners in Ceuta began organizing self-defence out of concern that police forces were inadequate.",
+        "attributed_to": "Enrique Serrano",
+        "sentence_id": "s018",
+        "quote": "business owners were organising self-defence because they believed police resources would be insufficient.",
+        "check": {
+          "status": "exact",
+          "found_in": "s018",
+          "cited_ok": true
+        }
+      }
+    ],
+    "dominant_frame": "security",
+    "frame_reason": "The report focuses heavily on military deployment, overwhelmed border security, local self-defence measures, and claims that the mass influx constitutes a national security crisis.",
+    "frame_sentence_ids": [
+      "s001",
+      "s018",
+      "s026"
+    ],
+    "key_language": [
+      {
+        "phrase": "overwhelming the local force",
+        "voice": "narration",
+        "sentence_id": "s001",
+        "check": {
+          "status": "exact",
+          "found_in": "s001",
+          "cited_ok": true
+        }
+      },
+      {
+        "phrase": "massively entering from the sea",
+        "voice": "quoted_source",
+        "sentence_id": "s015",
+        "check": {
+          "status": "exact",
+          "found_in": "s015",
+          "cited_ok": true
+        }
+      },
+      {
+        "phrase": "facing a national security crisis",
+        "voice": "quoted_source",
+        "sentence_id": "s026",
+        "check": {
+          "status": "exact",
+          "found_in": "s026",
+          "cited_ok": true
+        }
+      },
+      {
+        "phrase": "today has been an explosion",
+        "voice": "quoted_source",
+        "sentence_id": "s032",
+        "check": {
+          "status": "exact",
+          "found_in": "s032",
+          "cited_ok": true
+        }
+      }
+    ],
+    "political_leaning": null,
+    "sentiment": null,
+    "entities": null,
+    "themes": null,
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "prompt_version": "v1",
+    "text_sha1": "5f74120f51fd1b9f7af653470c1e7132b0bf2a4c",
+    "generated_at": "2026-10-09T11:26:56+00:00"
+  },
+  "ART_EA32CCA44378": {
+    "article_id": "ART_EA32CCA44378",
+    "event_id": "IMM_001",
+    "publisher": "News.com.au",
+    "title": "Hundreds of migrants flood into Spain’s Ceuta exclave from Morocco",
+    "article_type": "news_report",
+    "main_country": "Spain",
+    "summary": "Spain announced it would deploy armed forces to reinforce security in Ceuta after hundreds of migrants crossed into the North African exclave from Morocco. The influx resulted in the deaths of at least nine migrants and sparked a diplomatic confrontation between Italy and Spain over border controls and the Schengen zone. Spanish Prime Minister Pedro Sanchez also faced immediate domestic political pressure from right-wing opposition parties over the border crisis.",
+    "key_points": [
+      {
+        "claim": "Spain decided to deploy soldiers and increase Civil Guard forces to maintain security in Ceuta after hundreds of migrants crossed the border.",
+        "attributed_to": "Spain's interior ministry",
+        "sentence_id": "s007",
+        "quote": "The armed forces will reinforce the Civil Guard in the exercise of its powers and any others that may be necessary to maintain security",
+        "check": {
+          "status": "exact",
+          "found_in": "s007",
+          "cited_ok": true
+        }
+      },
+      {
+        "claim": "Nine migrants died while swimming to reach the Spanish enclave of Ceuta.",
+        "attributed_to": "Spanish government's delegation in the enclave",
+        "sentence_id": "s002",
+        "quote": "the bodies of nine migrants who died while trying to reach Ceuta by swimming had been recovered.",
+        "check": {
+          "status": "exact",
+          "found_in": "s002",
+          "cited_ok": true
+        }
+      },
+      {
+        "claim": "Italy called for Spain to be excluded from Europe's Schengen area, arguing that irregular immigration endangers national security.",
+        "attributed_to": "Antonio Tajani",
+        "sentence_id": "s012",
+        "quote": "Irregular and uncontrolled immigration poses a danger to national security",
+        "check": {
+          "status": "exact",
+          "found_in": "s012",
+          "cited_ok": true
+        }
+      },
+      {
+        "claim": "Spanish authorities rejected Italy's comments, accusing the Italian minister of using migration for partisan political aims.",
+        "attributed_to": "Jose Luis Albares",
+        "sentence_id": "s014",
+        "quote": "improper\" for \"a partner and friendly country from which we expect European solidarity and not partisan demagoguery",
+        "check": {
+          "status": "exact",
+          "found_in": "s014",
+          "cited_ok": true
+        }
+      }
+    ],
+    "dominant_frame": "security",
+    "frame_reason": "The report focuses primarily on military deployments, border control enforcement, and arguments by domestic and international officials framing the migration surge as a national security issue.",
+    "frame_sentence_ids": [
+      "s001",
+      "s007",
+      "s028"
+    ],
+    "key_language": [
+      {
+        "phrase": "despatch soldiers to Ceuta to ensure security",
+        "voice": "narration",
+        "sentence_id": "s001",
+        "check": {
+          "status": "exact",
+          "found_in": "s001",
+          "cited_ok": true
+        }
+      },
+      {
+        "phrase": "danger to national security",
+        "voice": "quoted_source",
+        "sentence_id": "s012",
+        "check": {
+          "status": "exact",
+          "found_in": "s012",
+          "cited_ok": true
+        }
+      },
+      {
+        "phrase": "partisan demagoguery",
+        "voice": "quoted_source",
+        "sentence_id": "s014",
+        "check": {
+          "status": "exact",
+          "found_in": "s014",
+          "cited_ok": true
+        }
+      },
+      {
+        "phrase": "national security crisis",
+        "voice": "quoted_source",
+        "sentence_id": "s028",
+        "check": {
+          "status": "exact",
+          "found_in": "s028",
+          "cited_ok": true
+        }
+      }
+    ],
+    "political_leaning": null,
+    "sentiment": null,
+    "entities": null,
+    "themes": null,
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "prompt_version": "v1",
+    "text_sha1": "7e92ebf5f518d1824b7d39a479f3d6dfc5556446",
+    "generated_at": "2026-10-09T11:40:00+00:00"
+  }
+}

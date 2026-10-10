@@ -1,0 +1,278 @@
+{
+  "ART_68BA904019A2": {
+    "summary": "Pauline Hanson has rarely had a better opportunity to get her facts right than in 7NEWS Spotlight’s special report broadcast on Sunday night. It included her first major television interview since calling for an Australian ‘monoculture’ at the National Press Club in June. The interview was conducted in London, by correspondent Liam Bartlett, midway through Hanson's so-called fact-finding tour of the UK. She claimed her trip provided both a warning and a political war plan for One Nation — to prevent Australia becoming the 'sad sorry country' she believes the UK now is.",
+    "input_tokens": 1357,
+    "truncated": true,
+    "alignment": [
+      {
+        "sentence": "Pauline Hanson has rarely had a better opportunity to get her facts right than in 7NEWS Spotlight’s special report broadcast on Sunday night.",
+        "best_source": "s001",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "It included her first major television interview since calling for an Australian ‘monoculture’ at the National Press Club in June.",
+        "best_source": "s002",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "The interview was conducted in London, by correspondent Liam Bartlett, midway through Hanson's so-called fact-finding tour of the UK.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "She claimed her trip provided both a warning and a political war plan for One Nation — to prevent Australia becoming the 'sad sorry country' she believes the UK now is.",
+        "best_source": "s004",
+        "precision": 0.967,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "a62cdfd94da17631364f9deafc96f0fcbaaeb039"
+  },
+  "ART_041B7EA0CFF0": {
+    "summary": "An Australian man has died in while in immigration detention in Bali. The 39-year-old man was set to be deported back home for overstaying his visa. The man was taken into immigration custody on Friday in Jimbaran, south of Bali’s capital Denpasar.",
+    "input_tokens": 452,
+    "truncated": false,
+    "alignment": [
+      {
+        "sentence": "An Australian man has died in while in immigration detention in Bali.",
+        "best_source": "s001",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "The 39-year-old man was set to be deported back home for overstaying his visa.",
+        "best_source": "s001",
+        "precision": 0.75,
+        "status": "supported"
+      },
+      {
+        "sentence": "The man was taken into immigration custody on Friday in Jimbaran, south of Bali’s capital Denpasar.",
+        "best_source": "s006",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "debfb0531c9f8e27ff699216c6053bd3cdbee70d"
+  },
+  "ART_21098433ADD2": {
+    "summary": "Employment Minister Amanda Rishworth refused to say whether tradies should be prioritised over economists and animal trainers under Australia's skilled migration scheme. The minister was grilled by Sunrise host Nat Barr over the government’s migration priorities on Wednesday. Under the current Skilled Migration Scheme, nurses and health professionals are listed in tier one, teachers sit in tier two, while construction trades are ranked in tier three.",
+    "input_tokens": 651,
+    "truncated": false,
+    "alignment": [
+      {
+        "sentence": "Employment Minister Amanda Rishworth refused to say whether tradies should be prioritised over economists and animal trainers under Australia's skilled migration scheme.",
+        "best_source": "s001",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "The minister was grilled by Sunrise host Nat Barr over the government’s migration priorities on Wednesday.",
+        "best_source": "s002",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Under the current Skilled Migration Scheme, nurses and health professionals are listed in tier one, teachers sit in tier two, while construction trades are ranked in tier three.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "7295d252d48c7d794bc8db6a8e354cd320c2100d"
+  },
+  "ART_C6E51BFB5116": {
+    "summary": "Pauline Hanson has met with UK far-right figure Tommy Robinson to record a new podcast interview. Robinson, 43, took to social media to share news of their sit-down, and what is to come. “Had a fascinating time chatting to one of the bravest lady’s on the planet,” the controversial activist shared on X.",
+    "input_tokens": 468,
+    "truncated": false,
+    "alignment": [
+      {
+        "sentence": "Pauline Hanson has met with UK far-right figure Tommy Robinson to record a new podcast interview.",
+        "best_source": "s001",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Robinson, 43, took to social media to share news of their sit-down, and what is to come.",
+        "best_source": "s002",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "“Had a fascinating time chatting to one of the bravest lady’s on the planet,” the controversial activist shared on X.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "d4323fbe7660a32f1727699fd6507777582ddabb"
+  },
+  "ART_C956A4AFDAC0": {
+    "summary": "Leading demographer Professor Peter McDonald says the tax system is “unfair” and the Albanese Government should be “looking at better ways to support families with children” The professor once described by former Prime Minister Malcolm Turnbull as “arguably the world’s leading demographer”, has discussed migration and population with 7NEWS Podcast The Issue. Australia previously had universal, non-means tested, allowances for families.",
+    "input_tokens": 1227,
+    "truncated": true,
+    "alignment": [
+      {
+        "sentence": "Leading demographer Professor Peter McDonald says the tax system is “unfair” and the Albanese Government should be “looking at better ways to support families with children” The professor once described by former Prime Minister Malcolm Turnbull as “arguably the world’s leading demographer”, has discussed migration and population with 7NEWS Podcast The Issue.",
+        "best_source": "s002",
+        "precision": 0.509,
+        "status": "supported"
+      },
+      {
+        "sentence": "Australia previously had universal, non-means tested, allowances for families.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "aee7bfbbc3c7f3d2895a0f3ce476fff7083a9b9a"
+  },
+  "ART_8331F403212C": {
+    "summary": "There are fears a bumper multibillion-dollar harvest in WA is at risk because of a new crackdown on backpacker and temporary visas. An army of workers arrive to help on the land every year but farmers say they are now being blocked or delayed in a bureaucratic nightmare. Harvest has made an earlier than expected start in WA, and grain farmers are eyeing off a crop of 23 million tonnes.",
+    "input_tokens": 439,
+    "truncated": false,
+    "alignment": [
+      {
+        "sentence": "There are fears a bumper multibillion-dollar harvest in WA is at risk because of a new crackdown on backpacker and temporary visas.",
+        "best_source": "s001",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "An army of workers arrive to help on the land every year but farmers say they are now being blocked or delayed in a bureaucratic nightmare.",
+        "best_source": "s002",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Harvest has made an earlier than expected start in WA, and grain farmers are eyeing off a crop of 23 million tonnes.",
+        "best_source": "s007",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "b5ad0ddb3df5c39da246b048f2ee11648dca42ba"
+  },
+  "ART_B53B6771FBBD": {
+    "summary": "Immigration Minister Tony Burke revealed the long-awaited changes to the migration system on Thursday. The government will stabilise processing times for Working Holiday Maker applications to three months. The skilled migration program will be tweaked to prioritise applicants in healthcare, construction, education, law enforcement, defence, resources, agriculture, aquaculture, and fishing.",
+    "input_tokens": 1500,
+    "truncated": true,
+    "alignment": [
+      {
+        "sentence": "Immigration Minister Tony Burke revealed the long-awaited changes to the migration system on Thursday.",
+        "best_source": "s032",
+        "precision": 0.8,
+        "status": "supported"
+      },
+      {
+        "sentence": "The government will stabilise processing times for Working Holiday Maker applications to three months.",
+        "best_source": "s013",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "The skilled migration program will be tweaked to prioritise applicants in healthcare, construction, education, law enforcement, defence, resources, agriculture, aquaculture, and fishing.",
+        "best_source": "s007",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "8261cba1fc953c9e6bb5011a7a1755726580c9f7"
+  },
+  "ART_ED04E2AD2205": {
+    "summary": "The Home Affairs department will crack down on family and dependent visas for international students. Onshore visa applications for skilled workers will be prioritised. To clear the backlog of bridging visas, applications will also be fast-tracked. It comes after new polling revealed Australians want a crackdown on migration and for the country's refugee intake to be slashed.",
+    "input_tokens": 242,
+    "truncated": false,
+    "alignment": [
+      {
+        "sentence": "The Home Affairs department will crack down on family and dependent visas for international students.",
+        "best_source": "s002",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Onshore visa applications for skilled workers will be prioritised.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "To clear the backlog of bridging visas, applications will also be fast-tracked.",
+        "best_source": "s004",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "It comes after new polling revealed Australians want a crackdown on migration and for the country's refugee intake to be slashed.",
+        "best_source": "s007",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "20de3b319d9f79cb7f573173923feb0c974ccf36"
+  },
+  "ART_63F7E2634B51": {
+    "summary": "Spanish military units are being deployed to reinforce police in Ceuta. Spain's interior ministry estimates more than 40,000 people swam, with 18 people declared dead. Ceuta is an autonomous city of Spain, on the North African coast, and has been the scene of previous mass migration events.",
+    "input_tokens": 1011,
+    "truncated": false,
+    "alignment": [
+      {
+        "sentence": "Spanish military units are being deployed to reinforce police in Ceuta.",
+        "best_source": "s001",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Spain's interior ministry estimates more than 40,000 people swam, with 18 people declared dead.",
+        "best_source": "s002",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Ceuta is an autonomous city of Spain, on the North African coast, and has been the scene of previous mass migration events.",
+        "best_source": "s004",
+        "precision": 1.0,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "5f74120f51fd1b9f7af653470c1e7132b0bf2a4c"
+  },
+  "ART_0AB2F2A5AF10": {
+    "summary": "Department of Home Affairs has family violence provisions under the Migration Act. The application asks for proof the relationship was \"genuine\" via documents that usually do not exist. Lawyers and experts say the department has the process backwards, with many applicants \"falling down at the first step\" For migrant mother Sophia, the abuse included physical, verbal and sexual abuse.",
+    "input_tokens": 1563,
+    "truncated": true,
+    "alignment": [
+      {
+        "sentence": "Department of Home Affairs has family violence provisions under the Migration Act.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "The application asks for proof the relationship was \"genuine\" via documents that usually do not exist.",
+        "best_source": "s003",
+        "precision": 1.0,
+        "status": "supported"
+      },
+      {
+        "sentence": "Lawyers and experts say the department has the process backwards, with many applicants \"falling down at the first step\" For migrant mother Sophia, the abuse included physical, verbal and sexual abuse.",
+        "best_source": "s004",
+        "precision": 0.613,
+        "status": "supported"
+      }
+    ],
+    "model": "facebook/bart-large-cnn",
+    "text_sha1": "7f15ccc6c388ce06140d6e83129b03bc1016a81a"
+  }
+}

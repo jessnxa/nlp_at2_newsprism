@@ -9,3 +9,5 @@ selectolax<1.0
 
 # NLP / event grouping
 scikit-learn
+
+nltk
