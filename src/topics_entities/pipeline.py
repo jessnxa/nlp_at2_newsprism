@@ -74,6 +74,20 @@ def run(corpus, decisions=None, cache_dir=None, nlp=None):
     )
 
 
+def extract_entities(corpus, nlp=None):
+    """Entities only, for any DataFrame of articles (e.g. a freshly fetched one); no clustering.
+
+    Needs the same input columns as run(). Returns (entity_mentions, article_entities) with the
+    same columns as the run() tables. Load the spaCy model once and pass it as nlp when calling
+    repeatedly (loading takes about 5 seconds; each article then takes well under a second):
+
+        nlp = spacy.load(NER_MODEL, disable=NER_DISABLE)
+    """
+    corpus = top.prepare_corpus(corpus)
+    mentions, _, _ = ent.extract_mentions(corpus, nlp)
+    return mentions[MENTION_COLUMNS], ent.article_entities(mentions).reset_index(drop=True)
+
+
 def write(result, out_dir):
     """Save the five tables as UTF-8 CSV files (BOM, so Excel opens them cleanly) in out_dir."""
     out_dir = Path(out_dir)

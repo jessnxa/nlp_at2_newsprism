@@ -35,6 +35,21 @@ About 2.5 minutes on a laptop CPU. Add `--cache-dir <folder>` to reuse embedding
 
 **Input columns required:** `article_id`, `topic`, `title`, `publisher`, `clean_text`. A missing column stops the run with a clear error. Other columns are ignored, and the input is never modified. Boilerplate (newsletter and app promos) is removed in memory only.
 
+### New articles (entities only)
+
+`run()` learns subtopics from a whole corpus, so it needs a corpus. For one or a few freshly fetched articles use `extract_entities`, which skips the subtopic step:
+
+```python
+import spacy
+from src.topics_entities import extract_entities
+from src.topics_entities.config import NER_DISABLE, NER_MODEL
+
+nlp = spacy.load(NER_MODEL, disable=NER_DISABLE)   # load once (~5 s), e.g. with st.cache_resource
+mentions, articles = extract_entities(new_articles_df, nlp=nlp)   # same columns as run()
+```
+
+It needs the same input columns as `run()` (including `topic`). Subtopics for new articles are not supported yet, because that needs an extra "assign" step.
+
 ## Outputs
 
 | File | One row per | Columns |
