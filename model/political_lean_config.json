@@ -1,0 +1,12 @@
+{
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "chunk_size": 200,
+    "pooling": "mean",
+    "normalize_chunk_embeddings": true,
+    "normalize_article_embedding": true,
+    "classes": [
+        "left",
+        "centre",
+        "right"
+    ]
+}
