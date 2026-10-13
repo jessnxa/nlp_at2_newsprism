@@ -219,5 +219,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# topics_entities: generated outputs and local tooling
+data/enriched/topics_entities/
+.venv*/
+.DS_Store
 # large file
 model/mpnet_embedder/
