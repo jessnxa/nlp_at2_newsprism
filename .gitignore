@@ -223,3 +223,5 @@ __marimo__/
 data/enriched/topics_entities/
 .venv*/
 .DS_Store
+# large file
+model/mpnet_embedder/
