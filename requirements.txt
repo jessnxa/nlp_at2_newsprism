@@ -11,3 +11,11 @@ selectolax<1.0
 scikit-learn
 
 nltk
+
+# Charts
+matplotlib
+
+# Framing and summarisation
+pydantic
+rouge-score
+python-dotenv
