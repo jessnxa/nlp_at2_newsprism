@@ -29,9 +29,9 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 3,
-            "centre": 2,
-            "right": 1
+            "centre": 3,
+            "right": 2,
+            "left": 1
           },
           "n": 6
         },
@@ -83,8 +83,9 @@
         },
         "political_leaning": {
           "counts": {
-            "centre": 8,
-            "left": 8
+            "left": 8,
+            "centre": 7,
+            "right": 1
           },
           "n": 16
         },
@@ -142,9 +143,9 @@
         },
         "political_leaning": {
           "counts": {
-            "centre": 6,
-            "left": 6,
-            "right": 1
+            "centre": 5,
+            "left": 5,
+            "right": 3
           },
           "n": 13
         },
@@ -203,7 +204,8 @@
         "political_leaning": {
           "counts": {
             "centre": 6,
-            "left": 6
+            "left": 5,
+            "right": 1
           },
           "n": 12
         },
@@ -261,9 +263,9 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 12,
-            "centre": 6,
-            "right": 3
+            "centre": 8,
+            "left": 8,
+            "right": 5
           },
           "n": 21
         },
@@ -322,9 +324,9 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 8,
-            "centre": 7,
-            "right": 1
+            "centre": 11,
+            "left": 3,
+            "right": 2
           },
           "n": 16
         },
@@ -381,8 +383,8 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 2,
-            "centre": 2
+            "left": 3,
+            "centre": 1
           },
           "n": 4
         },
@@ -575,8 +577,8 @@
         "political_leaning": {
           "counts": {
             "centre": 4,
-            "right": 3,
-            "left": 1
+            "left": 2,
+            "right": 2
           },
           "n": 8
         },
@@ -636,9 +638,8 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 8,
-            "centre": 3,
-            "right": 2
+            "left": 10,
+            "centre": 3
           },
           "n": 13
         },
@@ -694,9 +695,8 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 1,
-            "right": 1,
-            "centre": 1
+            "right": 2,
+            "left": 1
           },
           "n": 3
         },
@@ -744,8 +744,7 @@
         },
         "political_leaning": {
           "counts": {
-            "centre": 1,
-            "left": 1
+            "centre": 2
           },
           "n": 2
         },
@@ -798,9 +797,9 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 10,
+            "left": 9,
             "centre": 3,
-            "right": 2
+            "right": 3
           },
           "n": 15
         },
@@ -856,8 +855,7 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 1,
-            "centre": 1,
+            "left": 2,
             "right": 1
           },
           "n": 3
@@ -909,7 +907,8 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 4
+            "left": 3,
+            "centre": 1
           },
           "n": 4
         },
@@ -1395,8 +1394,7 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 1,
-            "right": 1
+            "right": 2
           },
           "n": 2
         },
@@ -1443,8 +1441,8 @@
         },
         "political_leaning": {
           "counts": {
-            "centre": 3,
-            "left": 3
+            "left": 3,
+            "centre": 3
           },
           "n": 6
         },
@@ -1498,9 +1496,9 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 10,
-            "centre": 4,
-            "right": 2
+            "left": 9,
+            "centre": 6,
+            "right": 1
           },
           "n": 16
         },
@@ -1559,9 +1557,8 @@
         },
         "political_leaning": {
           "counts": {
-            "left": 12,
-            "centre": 2,
-            "right": 1
+            "left": 11,
+            "centre": 4
           },
           "n": 15
         },
@@ -1621,7 +1618,7 @@
         "political_leaning": {
           "counts": {
             "left": 14,
-            "right": 1
+            "centre": 1
           },
           "n": 15
         },
