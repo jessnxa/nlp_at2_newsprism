@@ -21,3 +21,10 @@ torch==2.14.1
 spacy==3.8.16
 spacy-transformers==1.4.0
 # spaCy models are not pip packages: python -m spacy download en_core_web_trf en_core_web_sm
+
+# Framing and summarisation (notebooks/05_framing_summarisation)
+nltk
+matplotlib
+pydantic
+rouge-score
+python-dotenv
