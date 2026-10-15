@@ -1,6 +1,6 @@
 # Framing and summarisation outputs
 
-Written by section 6 of `notebooks/05_framing_summarisation/newsprism_summary_no_events.ipynb` on 2026-10-14T15:11:15+00:00 (model: llama3.2:latest). 253 of 253 articles analysed. Do not edit by hand; rerun the export instead.
+Written by section 6 of `notebooks/05_framing_summarisation/newsprism_summary_no_events.ipynb` on 2026-10-15T07:28:44+00:00 (model: llama3.2:latest). 253 of 253 articles analysed. Do not edit by hand; rerun the export instead.
 
 - `article_id` is the join key for every file and for the other components' outputs.
 - These files hold only this component's results. Political leaning, sentiment and entities are not included: join them from the other components' files on `article_id`.

@@ -412,41 +412,36 @@
         ]
       }
     ],
-    "overview": "The topic of housing was covered by several news outlets, with a focus on economic consequences, policy processes, conflicts, and security issues.",
     "outlet_patterns": [
       {
         "publisher": "7NEWS",
-        "pattern": "security: 2, economic_consequences: 2, policy_process: 2",
+        "pattern": "7NEWS tends to focus on the economic and policy aspects of the housing crisis, often featuring experts and government officials in its coverage. It also frequently highlights the impact of the crisis on specific groups, such as first home buyers and tenants.",
         "example_article_ids": [
-          "ART_E57223AC64B2",
           "ART_B48B6DC7EE92",
-          "ART_B8775462894A"
+          "ART_A71E689D7582"
         ],
         "verified_article_ids": [
-          "ART_E57223AC64B2",
           "ART_B48B6DC7EE92",
-          "ART_B8775462894A"
+          "ART_A71E689D7582"
         ],
         "status": "ok"
       },
       {
         "publisher": "ABC News",
-        "pattern": "economic_consequences: 8, security: 4, conflict: 3, policy_process: 1",
+        "pattern": "ABC News tends to focus on the economic and security aspects of housing, often featuring experts and data on the impact of policy changes and market trends. It also frequently covers stories on homelessness and social housing issues.",
         "example_article_ids": [
           "ART_571A0F02A2C7",
-          "ART_A153F5010EBE",
-          "ART_53A8389573F4"
+          "ART_A153F5010EBE"
         ],
         "verified_article_ids": [
           "ART_571A0F02A2C7",
-          "ART_A153F5010EBE",
-          "ART_53A8389573F4"
+          "ART_A153F5010EBE"
         ],
         "status": "ok"
       },
       {
         "publisher": "News.com.au",
-        "pattern": "economic_consequences: 9, policy_process: 2, conflict: 1, security: 1",
+        "pattern": "News.com.au tends to focus on the economic consequences of housing issues, often featuring experts and data-driven analysis. It also frequently covers stories about the affordability and accessibility of housing, particularly for first-home buyers and low-income households.",
         "example_article_ids": [
           "ART_6F0514643C91",
           "ART_79B576DAF353",
@@ -461,88 +456,136 @@
       },
       {
         "publisher": "SBS News",
-        "pattern": "economic_consequences: 6, policy_process: 3, conflict: 2, security: 1",
+        "pattern": "SBS News tends to focus on the economic consequences of housing issues, such as the impact of interest rates and market trends, as well as the effects of government policies on the housing market. It often features experts and data to support its analysis. The outlet also frequently covers the struggles of low-income Australians and the need for affordable housing, highlighting the human impact of housing policy.",
         "example_article_ids": [
           "ART_5A47DEFF36E9",
-          "ART_1EDB8FC1E3C7",
-          "ART_3F85ED09577F"
+          "ART_18BD5C69505E",
+          "ART_40269FAACCED"
         ],
         "verified_article_ids": [
           "ART_5A47DEFF36E9",
-          "ART_1EDB8FC1E3C7",
-          "ART_3F85ED09577F"
+          "ART_18BD5C69505E",
+          "ART_40269FAACCED"
         ],
         "status": "ok"
       },
       {
         "publisher": "Sydney Morning Herald",
-        "pattern": "economic_consequences: 11, conflict: 7, security: 3",
+        "pattern": "Sydney Morning Herald tends to focus on the economic consequences of housing issues, often featuring experts and data to support their arguments. It also frequently covers stories about the impact of housing on different communities, such as first-home buyers and those priced out of the market.",
         "example_article_ids": [
-          "ART_E6C1F65960E4",
-          "ART_9C0888A0E4F1",
-          "ART_7AEA6911E8CC"
+          "[ART_E6C1F65960E4]",
+          "[ART_D73A6BA85772]"
         ],
-        "verified_article_ids": [
-          "ART_E6C1F65960E4",
-          "ART_9C0888A0E4F1",
-          "ART_7AEA6911E8CC"
-        ],
-        "status": "ok"
+        "verified_article_ids": [],
+        "status": "needs_review"
       },
       {
         "publisher": "The Age",
-        "pattern": "economic_consequences: 10, security: 2, policy_process: 2, conflict: 1, responsibility: 1",
+        "pattern": "The Age tends to focus on the economic consequences of housing market trends, such as the impact of interest rate rises and government tax policies on home loan applications and prices. It also often features stories about the affordability of housing, including the gap between what buyers and sellers are willing to pay for properties.",
         "example_article_ids": [
           "ART_34BE025C7DBD",
-          "ART_F8DF7ED7CC57",
-          "ART_9651B5FF1519"
+          "ART_F8DF7ED7CC57"
         ],
         "verified_article_ids": [
           "ART_34BE025C7DBD",
-          "ART_F8DF7ED7CC57",
-          "ART_9651B5FF1519"
-        ],
-        "status": "ok"
-      },
-      {
-        "publisher": "The Guardian Australia",
-        "pattern": "economic_consequences: 2, responsibility: 1, security: 1",
-        "example_article_ids": [
-          "ART_D47D24239E65",
-          "ART_7C11B8AED0A8",
-          "ART_FBAE444782C3"
-        ],
-        "verified_article_ids": [
-          "ART_D47D24239E65",
-          "ART_7C11B8AED0A8",
-          "ART_FBAE444782C3"
+          "ART_F8DF7ED7CC57"
         ],
         "status": "ok"
       }
     ],
+    "overview": "The coverage of the housing crisis across the outlets focuses on different aspects of the issue. The main stories and issues across the outlets include the economic and policy aspects of the crisis, the impact of the crisis on specific groups, and the effects of government policies on the housing market.",
     "differences": [
       {
-        "kind": "story_selection",
-        "description": "Outlets covered different stories",
+        "kind": "emphasis",
+        "description": "7NEWS tends to focus on the economic and policy aspects of the housing crisis, often featuring experts and government officials in its coverage, whereas ABC News tends to focus on the economic and security aspects of housing, often featuring experts and data on the impact of policy changes and market trends.",
         "article_ids": [
-          "ART_571A0F02A2C7",
-          "ART_A153F5010EBE"
+          "ART_E57223AC64B2",
+          "ART_571A0F02A2C7"
         ],
         "verified_article_ids": [
-          "ART_571A0F02A2C7",
-          "ART_A153F5010EBE"
+          "ART_E57223AC64B2",
+          "ART_571A0F02A2C7"
         ],
         "publishers_cited": [
+          "7NEWS",
           "ABC News"
         ],
-        "status": "needs_review"
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "News.com.au tends to focus on the economic consequences of housing issues, often featuring experts and data-driven analysis, whereas SBS News tends to focus on the economic consequences of housing issues, such as the impact of interest rates and market trends, as well as the effects of government policies on the housing market.",
+        "article_ids": [
+          "ART_6F0514643C91",
+          "ART_5A47DEFF36E9"
+        ],
+        "verified_article_ids": [
+          "ART_6F0514643C91",
+          "ART_5A47DEFF36E9"
+        ],
+        "publishers_cited": [
+          "News.com.au",
+          "SBS News"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "ABC News frequently covers stories on homelessness and social housing issues, whereas Sydney Morning Herald tends to focus on the impact of housing on different communities, such as first-home buyers and those priced out of the market.",
+        "article_ids": [
+          "ART_899CD1916A64",
+          "ART_C70B1B78ED76"
+        ],
+        "verified_article_ids": [
+          "ART_899CD1916A64",
+          "ART_C70B1B78ED76"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "Sydney Morning Herald"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "7NEWS often highlights the impact of the crisis on specific groups, such as first home buyers and tenants, whereas News.com.au frequently covers stories about the affordability and accessibility of housing, particularly for first-home buyers and low-income households.",
+        "article_ids": [
+          "ART_E57223AC64B2",
+          "ART_6F0514643C91"
+        ],
+        "verified_article_ids": [
+          "ART_E57223AC64B2",
+          "ART_6F0514643C91"
+        ],
+        "publishers_cited": [
+          "7NEWS",
+          "News.com.au"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "SBS News tends to focus on the economic consequences of housing issues, such as the impact of interest rates and market trends, as well as the effects of government policies on the housing market, whereas The Age tends to focus on the economic consequences of housing market trends, such as the impact of interest rate rises and government tax policies on home loan applications and prices.",
+        "article_ids": [
+          "ART_5A47DEFF36E9",
+          "ART_34BE025C7DBD"
+        ],
+        "verified_article_ids": [
+          "ART_5A47DEFF36E9",
+          "ART_34BE025C7DBD"
+        ],
+        "publishers_cited": [
+          "SBS News",
+          "The Age"
+        ],
+        "status": "ok"
       }
     ],
     "provider": "ollama",
     "model": "llama3.2:latest",
-    "prompt_version": "v1",
-    "input_sha1": "f674f1b645c542aeb09eafa79292c365957e3046",
-    "generated_at": "2026-10-11T17:14:32+00:00"
+    "prompt_version": "v1-t4",
+    "input_sha1": "3eccddae9266d061ba23aefb390485f03fe86dde",
+    "generated_at": "2026-10-15T07:19:24+00:00"
   },
   "immigration": {
     "topic": "immigration",
@@ -936,17 +979,15 @@
         ]
       }
     ],
-    "overview": "The media-framing app covers various news outlets' articles on the topic of immigration.",
     "outlet_patterns": [
       {
         "publisher": "7NEWS",
-        "pattern": "policy_process: 1, security: 1, morality: 1, economic_consequences: 1",
+        "pattern": "7NEWS tends to focus on the human impact of immigration policy, often featuring stories of individuals affected by changes to the system, such as the Australian man who died in immigration detention in Bali. It also frequently covers the views and actions of prominent politicians, including Pauline Hanson and Prime Minister Anthony Albanese, and the policy decisions of the Labor government. ",
         "example_article_ids": [
           "ART_68BA904019A2",
           "ART_041B7EA0CFF0",
           "ART_21098433ADD2",
           "ART_C6E51BFB5116",
-          "ART_C956A4AFDAC0",
           "ART_C956A4AFDAC0",
           "ART_8331F403212C",
           "ART_B53B6771FBBD",
@@ -957,7 +998,6 @@
           "ART_041B7EA0CFF0",
           "ART_21098433ADD2",
           "ART_C6E51BFB5116",
-          "ART_C956A4AFDAC0",
           "ART_C956A4AFDAC0",
           "ART_8331F403212C",
           "ART_B53B6771FBBD",
@@ -967,301 +1007,94 @@
       },
       {
         "publisher": "ABC News",
-        "pattern": "policy_process: 2, human_interest: 2, conflict: 1, security: 1, economic_consequences: 1",
+        "pattern": "ABC News tends to focus on the human impact of immigration policies, often featuring stories of survivors of domestic violence, genocide, and exploitation. It also frequently highlights the personal struggles of migrants and refugees, such as those seeking asylum or navigating the complex visa system.",
         "example_article_ids": [
           "ART_0AB2F2A5AF10",
-          "ART_7BE6660C3955",
-          "ART_61B6AC38947A",
           "ART_495E1B58404F",
-          "ART_80673C1E9D38",
-          "ART_ED2ACBE53310",
-          "ART_9381E2C20107",
-          "ART_19AB4D22C84D",
-          "ART_986A4222100D",
-          "ART_4C101AA293DC",
           "ART_4C101AA293DC"
         ],
         "verified_article_ids": [
           "ART_0AB2F2A5AF10",
-          "ART_7BE6660C3955",
-          "ART_61B6AC38947A",
           "ART_495E1B58404F",
-          "ART_80673C1E9D38",
-          "ART_ED2ACBE53310",
-          "ART_9381E2C20107",
-          "ART_19AB4D22C84D",
-          "ART_986A4222100D",
-          "ART_4C101AA293DC",
           "ART_4C101AA293DC"
-        ],
-        "status": "ok"
-      },
-      {
-        "publisher": "News.com.au",
-        "pattern": "economic_consequences: 2, policy_process: 1",
-        "example_article_ids": [
-          "ART_5501D604B591",
-          "ART_F12F225136A2",
-          "ART_D50E1833B9E7"
-        ],
-        "verified_article_ids": [
-          "ART_5501D604B591",
-          "ART_F12F225136A2",
-          "ART_D50E1833B9E7"
-        ],
-        "status": "ok"
-      },
-      {
-        "publisher": "SBS News",
-        "pattern": "policy_process: 2",
-        "example_article_ids": [
-          "ART_3B052CF82962",
-          "ART_E67F20F199C8"
-        ],
-        "verified_article_ids": [
-          "ART_3B052CF82962",
-          "ART_E67F20F199C8"
         ],
         "status": "ok"
       },
       {
         "publisher": "Sydney Morning Herald",
-        "pattern": "policy_process: 6, conflict: 5, security: 2, economic_consequences: 2",
+        "pattern": "The Sydney Morning Herald tends to focus on the complexities and challenges of Australia's immigration system, often featuring stories about the experiences of migrant workers, the impact of migration policy on different groups, and the tensions between the federal government and state governments. The outlet also frequently covers the rise of far-right parties like One Nation and their influence on Australian politics.",
         "example_article_ids": [
           "ART_30454BAD4D55",
           "ART_68086C659AF5",
-          "ART_45042CC73F6F",
-          "ART_76B26CB16095",
-          "ART_5DE9C9356FAF",
-          "ART_6BC71649003C",
-          "ART_3B5D507D08BB",
-          "ART_F50820095D27",
-          "ART_12648A0F7023",
-          "ART_1646F61CBF9C",
-          "ART_E5AAE6A2B08A",
-          "ART_60F9B9D47688",
-          "ART_8D44AD12EFE6",
-          "ART_1B18C600EB0B",
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8",
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC",
-          "ART_D7AF9B94ADAC"
+          "ART_45042CC73F6F"
         ],
         "verified_article_ids": [
           "ART_30454BAD4D55",
           "ART_68086C659AF5",
-          "ART_45042CC73F6F",
-          "ART_76B26CB16095",
-          "ART_5DE9C9356FAF",
-          "ART_6BC71649003C",
-          "ART_3B5D507D08BB",
-          "ART_F50820095D27",
-          "ART_12648A0F7023",
-          "ART_1646F61CBF9C",
-          "ART_E5AAE6A2B08A",
-          "ART_60F9B9D47688",
-          "ART_8D44AD12EFE6"
-        ],
-        "status": "ok"
-      },
-      {
-        "publisher": "The Age",
-        "pattern": "policy_process: 2, economic_consequences: 1, conflict: 1",
-        "example_article_ids": [
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8"
-        ],
-        "verified_article_ids": [
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8"
-        ],
-        "status": "ok"
-      },
-      {
-        "publisher": "The Guardian Australia",
-        "pattern": "human_interest: 2, policy_process: 2",
-        "example_article_ids": [
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC"
-        ],
-        "verified_article_ids": [
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC"
+          "ART_45042CC73F6F"
         ],
         "status": "ok"
       }
     ],
+    "overview": "The coverage of immigration across the three outlets focuses on different aspects of the issue. ABC News tends to focus on the human impact of immigration policies, often featuring stories of survivors of domestic violence, genocide, and exploitation. In contrast, 7NEWS tends to focus on the human impact of immigration policy, often featuring stories of individuals affected by changes to the system, such as the Australian man who died in immigration detention in Bali. Sydney Morning Herald tends to focus on the complexities and challenges of Australia's immigration system, often featuring stories about the experiences of migrant workers, the impact of migration policy on different groups, and the tensions between the federal government and state governments.",
     "differences": [
       {
         "kind": "story_selection",
-        "description": "7NEWS focuses on policy process, security, morality, and economic consequences, while ABC News covers policy process, human interest, conflict, security, and economic consequences.",
-        "article_ids": [
-          "ART_68BA904019A2",
-          "ART_041B7EA0CFF0",
-          "ART_21098433ADD2",
-          "ART_C6E51BFB5116",
-          "ART_C956A4AFDAC0",
-          "ART_8331F403212C",
-          "ART_B53B6771FBBD",
-          "ART_ED04E2AD2205"
-        ],
-        "verified_article_ids": [
-          "ART_68BA904019A2",
-          "ART_041B7EA0CFF0",
-          "ART_21098433ADD2",
-          "ART_C6E51BFB5116",
-          "ART_C956A4AFDAC0",
-          "ART_8331F403212C",
-          "ART_B53B6771FBBD",
-          "ART_ED04E2AD2205"
-        ],
-        "publishers_cited": [
-          "7NEWS"
-        ],
-        "status": "needs_review"
-      },
-      {
-        "kind": "story_selection",
-        "description": "ABC News covers human interest, conflict, security, and economic consequences, while News.com.au focuses on economic consequences and policy process.",
+        "description": "ABC News and 7NEWS differ in their coverage of the human impact of immigration policies, with ABC News focusing on survivors of domestic violence, genocide, and exploitation, while 7NEWS focuses on individuals affected by changes to the system, such as the Australian man who died in immigration detention in Bali.",
         "article_ids": [
           "ART_0AB2F2A5AF10",
-          "ART_7BE6660C3955",
-          "ART_61B6AC38947A",
-          "ART_495E1B58404F",
-          "ART_80673C1E9D38",
-          "ART_ED2ACBE53310",
-          "ART_9381E2C20107",
-          "ART_19AB4D22C84D",
-          "ART_986A4222100D",
-          "ART_4C101AA293DC",
-          "ART_4C101AA293DC"
+          "ART_041B7EA0CFF0"
         ],
         "verified_article_ids": [
           "ART_0AB2F2A5AF10",
-          "ART_7BE6660C3955",
-          "ART_61B6AC38947A",
-          "ART_495E1B58404F",
-          "ART_80673C1E9D38",
-          "ART_ED2ACBE53310",
-          "ART_9381E2C20107",
-          "ART_19AB4D22C84D",
-          "ART_986A4222100D",
-          "ART_4C101AA293DC",
-          "ART_4C101AA293DC"
+          "ART_041B7EA0CFF0"
         ],
         "publishers_cited": [
+          "7NEWS",
           "ABC News"
-        ],
-        "status": "needs_review"
-      },
-      {
-        "kind": "story_selection",
-        "description": "SBS News covers policy process, while Sydney Morning Herald covers policy process, conflict, security, economic consequences, and human interest.",
-        "article_ids": [
-          "ART_3B052CF82962",
-          "ART_E67F20F199C8",
-          "ART_30454BAD4D55",
-          "ART_68086C659AF5",
-          "ART_45042CC73F6F",
-          "ART_76B26CB16095",
-          "ART_5DE9C9356FAF",
-          "ART_6BC71649003C",
-          "ART_3B5D507D08BB",
-          "ART_F50820095D27",
-          "ART_12648A0F7023",
-          "ART_1646F61CBF9C",
-          "ART_E5AAE6A2B08A",
-          "ART_60F9B9D47688",
-          "ART_8D44AD12EFE6",
-          "ART_1B18C600EB0B",
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8",
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC",
-          "ART_D7AF9B94ADAC"
-        ],
-        "verified_article_ids": [
-          "ART_3B052CF82962",
-          "ART_E67F20F199C8",
-          "ART_30454BAD4D55",
-          "ART_68086C659AF5",
-          "ART_45042CC73F6F",
-          "ART_76B26CB16095",
-          "ART_5DE9C9356FAF",
-          "ART_6BC71649003C",
-          "ART_3B5D507D08BB",
-          "ART_F50820095D27",
-          "ART_12648A0F7023",
-          "ART_1646F61CBF9C",
-          "ART_E5AAE6A2B08A",
-          "ART_60F9B9D47688",
-          "ART_8D44AD12EFE6",
-          "ART_1B18C600EB0B",
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8",
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC",
-          "ART_D7AF9B94ADAC"
-        ],
-        "publishers_cited": [
-          "SBS News",
-          "Sydney Morning Herald",
-          "The Age",
-          "The Guardian Australia"
         ],
         "status": "ok"
       },
       {
         "kind": "story_selection",
-        "description": "The Age covers economic consequences and conflict, while The Guardian Australia covers human interest and policy process.",
+        "description": "Sydney Morning Herald and 7NEWS differ in their coverage of the complexities and challenges of Australia's immigration system, with Sydney Morning Herald focusing on the experiences of migrant workers, the impact of migration policy on different groups, and the tensions between the federal government and state governments, while 7NEWS focuses on the human impact of immigration policy.",
         "article_ids": [
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8",
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC",
-          "ART_D7AF9B94ADAC"
+          "ART_30454BAD4D55",
+          "ART_21098433ADD2"
         ],
         "verified_article_ids": [
-          "ART_8B96EF8BD4B5",
-          "ART_A87B1707FD5B",
-          "ART_CBC6CB083FA8",
-          "ART_8885A2A87DF9",
-          "ART_E66C15ADDC69",
-          "ART_68952A28D808",
-          "ART_D7AF9B94ADAC",
-          "ART_D7AF9B94ADAC"
+          "ART_30454BAD4D55",
+          "ART_21098433ADD2"
         ],
         "publishers_cited": [
-          "The Age",
-          "The Guardian Australia"
+          "7NEWS",
+          "Sydney Morning Herald"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "story_selection",
+        "description": "ABC News and Sydney Morning Herald differ in their coverage of the rise of far-right parties like One Nation and their influence on Australian politics, with ABC News covering the party's impact on immigration policy, while Sydney Morning Herald covering the party's influence on Australian politics more broadly.",
+        "article_ids": [
+          "ART_7BE6660C3955",
+          "ART_6BC71649003C"
+        ],
+        "verified_article_ids": [
+          "ART_7BE6660C3955",
+          "ART_6BC71649003C"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "Sydney Morning Herald"
         ],
         "status": "ok"
       }
     ],
     "provider": "ollama",
     "model": "llama3.2:latest",
-    "prompt_version": "v1",
-    "input_sha1": "8af0c6acc7cd87f223342866574a4663afcdeb18",
-    "generated_at": "2026-10-11T05:05:53+00:00"
+    "prompt_version": "v1-t4",
+    "input_sha1": "909986b3aac6031c294ca6860941a0d7c90c6f12",
+    "generated_at": "2026-10-15T06:41:15+00:00"
   },
   "clean_energy": {
     "topic": "clean_energy",
@@ -1652,78 +1485,135 @@
         ]
       }
     ],
-    "overview": "The media framing app analyzed the coverage of clean energy topics across various news outlets. The analysis found that the outlets tend to focus on economic consequences, policy processes, and security aspects of clean energy. The outlets also cover human-interest stories, conflict, and responsibility-related topics. The analysis highlights the importance of considering the different frames and perspectives presented by various news outlets when discussing clean energy topics.",
     "outlet_patterns": [
       {
         "publisher": "ABC News",
-        "pattern": "ABC News tends to focus on economic consequences and policy processes of clean energy. The outlet also covers security aspects and human-interest stories.",
+        "pattern": "ABC News tends to focus on the economic and policy aspects of clean energy, often featuring experts and industry leaders. It also frequently covers the impact of clean energy on various sectors, such as the construction and real estate industries.",
         "example_article_ids": [
-          "ART_DCFDEF626F69",
-          "ART_431A4FA45759",
-          "ART_5B2E3A9476A4"
+          "ART_5B2E3A9476A4",
+          "ART_E12B185B4FB7"
         ],
         "verified_article_ids": [
-          "ART_DCFDEF626F69",
-          "ART_431A4FA45759",
-          "ART_5B2E3A9476A4"
+          "ART_5B2E3A9476A4",
+          "ART_E12B185B4FB7"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "SBS News",
+        "pattern": "SBS News tends to focus on the economic and human impact of clean energy transition, often featuring stories about job losses and community concerns, as well as the policy decisions and government responses to these changes. It also frequently covers news about renewable energy projects and investments, particularly those with significant economic or environmental implications.",
+        "example_article_ids": [
+          "ART_14A38F033063",
+          "ART_B4B6CBFFEDFD",
+          "ART_1711BBC3404A",
+          "ART_D3972465FEDD"
+        ],
+        "verified_article_ids": [
+          "ART_14A38F033063",
+          "ART_B4B6CBFFEDFD",
+          "ART_1711BBC3404A"
         ],
         "status": "ok"
       },
       {
         "publisher": "Sydney Morning Herald",
-        "pattern": "Sydney Morning Herald tends to focus on economic consequences and conflict related to clean energy. The outlet also covers security aspects and responsibility-related topics.",
+        "pattern": "The Sydney Morning Herald tends to focus on the economic and policy aspects of clean energy, often featuring companies and experts in the field. It also covers the challenges and conflicts surrounding the transition to renewable energy, such as the impact on rural communities and the role of government policies. The outlet tends to highlight the need for investment and infrastructure development to support the growth of clean energy technologies.",
         "example_article_ids": [
-          "ART_176C60E0533C",
-          "ART_4C7FFB7E72A4",
-          "ART_2CCA20C51689"
+          "ART_EB3DE5BE5E26",
+          "ART_1FA6FC44C115"
         ],
         "verified_article_ids": [
-          "ART_176C60E0533C"
+          "ART_EB3DE5BE5E26",
+          "ART_1FA6FC44C115"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "The Age",
+        "pattern": "The Age tends to focus on the economic and security aspects of clean energy, often featuring stories about the impact of data centres and renewable energy investments on the industry and the environment. It also frequently covers conflicts and controversies surrounding clean energy policies and the role of governments in regulating the sector.",
+        "example_article_ids": [
+          "ART_4C7FFB7E72A4",
+          "ART_D21E4B0672BF"
+        ],
+        "verified_article_ids": [
+          "ART_4C7FFB7E72A4",
+          "ART_D21E4B0672BF"
         ],
         "status": "ok"
       },
       {
         "publisher": "The Guardian Australia",
-        "pattern": "The Guardian Australia tends to focus on security and conflict related to clean energy. The outlet also covers policy processes and economic consequences.",
+        "pattern": "The Guardian Australia tends to focus on the economic and social consequences of climate change, as well as the actions of corporations and governments in addressing it. It often features experts and advocates calling for urgent action to reduce greenhouse gas emissions and transition to clean energy.",
         "example_article_ids": [
-          "ART_5EE11F3F1BAD",
-          "ART_E24F63823DE0",
-          "ART_69A834C996A9"
+          "ART_4EC8FE03DD2F",
+          "ART_3080B997BDF0",
+          "ART_A531A7AC7600"
         ],
         "verified_article_ids": [
-          "ART_5EE11F3F1BAD",
-          "ART_E24F63823DE0",
-          "ART_69A834C996A9"
+          "ART_4EC8FE03DD2F",
+          "ART_3080B997BDF0",
+          "ART_A531A7AC7600"
         ],
         "status": "ok"
       }
     ],
+    "overview": "The coverage of clean energy across the outlets tends to focus on the economic and policy aspects, with a emphasis on the impact of clean energy on various sectors and the role of government policies. The outlets also frequently cover news about renewable energy projects and investments, particularly those with significant economic or environmental implications. **The Sydney Morning Herald** and **ABC News** tend to focus on the economic and policy aspects, while **The Guardian Australia** tends to focus on the economic and social consequences of climate change. **SBS News** tends to focus on the economic and human impact of clean energy transition, often featuring stories about job losses and community concerns.",
     "differences": [
       {
         "kind": "story_selection",
-        "description": "ABC News tends to focus on economic consequences and policy processes of clean energy, while Sydney Morning Herald focuses on economic consequences and conflict. The Guardian Australia focuses on security and conflict.",
+        "description": "SBS News and ABC News differ in their coverage of the economic impact of clean energy transition, with SBS News focusing on job losses and community concerns, while ABC News focuses on the economic and policy aspects.",
         "article_ids": [
-          "ART_DCFDEF626F69",
-          "ART_176C60E0533C",
-          "ART_5EE11F3F1BAD"
+          "ART_14A38F033063",
+          "ART_431A4FA45759"
         ],
         "verified_article_ids": [
-          "ART_DCFDEF626F69",
-          "ART_176C60E0533C",
-          "ART_5EE11F3F1BAD"
+          "ART_14A38F033063",
+          "ART_431A4FA45759"
         ],
         "publishers_cited": [
           "ABC News",
-          "Sydney Morning Herald",
+          "SBS News"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "story_selection",
+        "description": "The Sydney Morning Herald and The Guardian Australia differ in their coverage of the social consequences of climate change, with The Guardian Australia focusing on the economic and social consequences, while The Sydney Morning Herald focuses on the economic and policy aspects.",
+        "article_ids": [
+          "ART_09A5CA2E5FBB",
+          "ART_5EE11F3F1BAD"
+        ],
+        "verified_article_ids": [
+          "ART_09A5CA2E5FBB",
+          "ART_5EE11F3F1BAD"
+        ],
+        "publishers_cited": [
           "The Guardian Australia"
+        ],
+        "status": "needs_review"
+      },
+      {
+        "kind": "story_selection",
+        "description": "The Age and ABC News differ in their coverage of the security aspects of clean energy, with The Age focusing on the impact of data centres and renewable energy investments on the industry and the environment, while ABC News focuses on the economic and policy aspects.",
+        "article_ids": [
+          "ART_46787CD056F1",
+          "ART_E12B185B4FB7"
+        ],
+        "verified_article_ids": [
+          "ART_46787CD056F1",
+          "ART_E12B185B4FB7"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "The Age"
         ],
         "status": "ok"
       }
     ],
     "provider": "ollama",
     "model": "llama3.2:latest",
-    "prompt_version": "v1",
-    "input_sha1": "32f4f8117217f2ddfd03674d4956efcbf7d125ad",
-    "generated_at": "2026-10-11T17:13:00+00:00"
+    "prompt_version": "v1-t4",
+    "input_sha1": "bfb6f1e015fa6a5e032083f4efb58fe5490fbedf",
+    "generated_at": "2026-10-15T07:16:28+00:00"
   }
 }
