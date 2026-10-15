@@ -47,6 +47,15 @@ FRAME_COLOUR = {
 SENT_COLOUR = {"Negative": "#B5473A", "Neutral": "#7699D4", "Positive": "#3E8E5E"}
 THIN_LIMIT = 5
 
+# Plain-English labels for the entity type codes in the names data
+NAME_KINDS = {
+    "PERSON": "Person",
+    "GPE": "Place",
+    "LOC": "Place",
+    "ORG": "Organisation",
+    "NORP": "Nationality or group",
+}
+
 # Source type is not in the data. This grouping is our own classification of the seven publishers.
 SOURCE_TYPES = {
     "All online news": None,
@@ -357,15 +366,15 @@ def tab_overview(topic, df):
             unsafe_allow_html=True,
         )
 
-    st.markdown("### Shared entities")
+    st.markdown("### Names mentioned across all outlets")
     ents = load_entities()
     if ents is None:
-        st.info("Entity results are not yet available, so shared entities cannot be shown.")
+        st.info("The names data is not available yet, so these cannot be shown.")
     else:
         ents = ents[ents["article_id"].isin(df["article_id"])]
         top = ents.groupby("entity")["article_id"].nunique().sort_values(ascending=False).head(12)
         st.markdown("".join(f"<span class='np-pill'>{e} · {n}</span>" for e, n in top.items()), unsafe_allow_html=True)
-        st.markdown("<div class='np-note'>Number of articles mentioning each entity.</div>", unsafe_allow_html=True)
+        st.markdown("<div class='np-note'>Number of articles mentioning each name.</div>", unsafe_allow_html=True)
 
     with st.expander(f"All {len(df)} articles in this selection"):
         table = df[["publisher", "title", "date", "stance", "dominant_frame", "article_type"]].copy()
@@ -376,7 +385,7 @@ def tab_overview(topic, df):
 
 
 def tab_perspectives(topic, df, evidence):
-    st.markdown("### How the same story is framed")
+    st.markdown("### How the Topic is Discussed")
     st.markdown(
         "<div class='np-note'>Each column shows one example article from that group, chosen as the one with the most "
         "exact key-language quotes. It is an illustration, not the whole group.</div>",
@@ -415,7 +424,7 @@ def tab_perspectives(topic, df, evidence):
                 e_top = ents[ents["article_id"] == rep["article_id"]]["entity"].head(4).tolist()
                 ent_html = "".join(f"<span class='np-pill'>{e}</span>" for e in e_top) or "<span class='np-note'>None found</span>"
             else:
-                ent_html = "<span class='np-note'>Entity results not yet available</span>"
+                ent_html = "<span class='np-note'>Names not available yet</span>"
             st.markdown(
                 f"""<div class='np-card' style='border-radius:0 0 14px 14px'>
 <div class='np-small'>{rep['publisher']}</div>
@@ -430,7 +439,7 @@ def tab_perspectives(topic, df, evidence):
     <div class='np-big' style='font-size:1.2rem'>{top_frame}</div>
     <div class='np-small'>{share:.0f}% of {len(sub)} articles</div></div>
 </div>
-<div class='np-label'>Top entities</div>{ent_html}
+<div class='np-label'>Most mentioned names</div>{ent_html}
 <div class='np-label' style='margin-top:0.8rem'>Key language (exact quotes)</div>{pills}
 </div>""",
                 unsafe_allow_html=True,
@@ -472,13 +481,9 @@ def tab_outlets(topic, df):
         st.dataframe(totals.loc[keep].rename("articles").reset_index(), hide_index=True, width="stretch")
 
     data = topic_outlets(topic)
-    shown = set(keep)
-    patterns = [p for p in data.get("outlet_patterns", []) if p.get("publisher") in shown]
     diffs = data.get("differences", [])
-    if patterns or diffs:
-        st.markdown("### Patterns and differences")
-        for p in patterns:
-            st.markdown(f"**{p['publisher']}**: {p.get('pattern', '')}")
+    if diffs:
+        st.markdown("### Differences between outlets")
         for d in diffs:
             st.write(f"- {d.get('description', '')}")
         model_note()
@@ -568,18 +573,19 @@ def tab_sentiment(topic, df):
 
 
 def tab_entities(df):
-    st.markdown("### Who and what each outlet names")
+    st.markdown("### Who and what is mentioned")
     ents = load_entities()
     if ents is None:
         st.info(
-            "Entity results are not yet available. They come from src/topics_entities. "
-            "Once article_entities.csv is in data/enriched/topics_entities/, this tab fills in."
+            "The names data is not available yet. Once it is added to data/enriched/topics_entities/, this tab fills in."
         )
         return
     ents = ents[ents["article_id"].isin(df["article_id"])]
     top = ents.groupby(["entity", "type"])["article_id"].nunique().sort_values(ascending=False).head(25)
-    st.caption("Number of articles mentioning each entity.")
-    st.dataframe(top.rename("articles").reset_index(), hide_index=True, width="stretch")
+    table = top.rename("Articles").reset_index().rename(columns={"entity": "Name", "type": "Kind"})
+    table["Kind"] = table["Kind"].map(NAME_KINDS).fillna(table["Kind"])
+    st.caption("Number of articles mentioning each name.")
+    st.dataframe(table, hide_index=True, width="stretch")
 
 
 def tab_article(df, evidence):
@@ -630,10 +636,10 @@ It shows where coverage differs. It does not check whether articles are true.
 - **Corpus:** 253 articles from Google News RSS, 1 July to 30 September 2026. Seven publishers.
 - **Region:** the default view uses Australian outlets only, as in the report.
 - **Political leaning:** a three-class model (left, centre, right). Human labels used five levels, collapsed to three.
-- **Sentiment:** RoBERTa, checked on 39 hand-labelled articles (46% accuracy against a 54% majority baseline).
-- **Summaries and framing:** generated by local language models and not checked for every article.
-- **Quotations:** checked to appear in the article. Not checked for whether they support the point.
-- **Stance key claims:** only claims checked by a person are shown.
+- **Sentiment:** RoBERTa, validated on 39 hand-labelled articles (46% accuracy against a 54% majority baseline).
+- **Summaries and framing:** generated by local language models and not validated for every article.
+- **Quotations:** confirmed to appear in the article. Not checked for whether they support the point.
+- **Stance key claims:** only claims validated by a person are shown.
 - **Source type:** our own grouping of the seven publishers, not recorded in the data.
 - **Literacy level:** approximate Flesch Reading Ease of the article text. It measures the text, not the reader.
 - **Time range:** counted back from 30 September 2026, the latest article, because the corpus stops there.
@@ -656,7 +662,7 @@ def main():
         st.info("No articles match your filters. Widen the date range, region, outlets or leaning in the sidebar.")
         return
 
-    tabs = st.tabs(["Overview", "Perspectives", "Outlets", "Stances", "Sentiment", "Entities", "Article", "About"])
+    tabs = st.tabs(["Overview", "Perspectives", "Outlets", "Stances", "Sentiment", "Who and what is mentioned", "Article", "About"])
     with tabs[0]:
         tab_overview(topic, df)
     with tabs[1]:
