@@ -2,6 +2,8 @@
 
 Finds **subtopics** inside each broad topic (clean_energy, housing, immigration) and extracts **named entities** (people, organisations, places, groups) from every article. Every output joins to the corpus on `article_id`.
 
+For the reasoning behind every model and setting, how this connects to the other components and the Streamlit app, and the evidence and limitations, see [DOCUMENTATION.md](DOCUMENTATION.md).
+
 ## Setup
 
 ```bash
