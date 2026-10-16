@@ -9,3 +9,23 @@ selectolax<1.0
 
 # NLP / event grouping
 scikit-learn
+
+# Topics & entities (src/topics_entities); pandas and scikit-learn are listed above
+bertopic==0.17.4
+sentence-transformers==5.7.0  # 6.x needs transformers>=5, which spacy-transformers does not support
+transformers==4.53.2
+huggingface-hub==0.36.2
+umap-learn==0.5.12
+hdbscan==0.8.44
+torch==2.14.1
+spacy==3.8.16
+spacy-transformers==1.4.0
+# spaCy models are not pip packages: python -m spacy download en_core_web_trf en_core_web_sm
+
+# Framing and summarisation (notebooks/05_framing_summarisation)
+nltk
+matplotlib
+pydantic
+rouge-score
+python-dotenv
+bert-score

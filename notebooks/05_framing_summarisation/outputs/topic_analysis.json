@@ -1,0 +1,1619 @@
+{
+  "housing": {
+    "topic": "housing",
+    "australia_only": true,
+    "articles_in_corpus": 92,
+    "articles_analysed": 92,
+    "articles_used": 88,
+    "outlets": [
+      {
+        "publisher": "7NEWS",
+        "articles_in_corpus": 6,
+        "articles_used": 6,
+        "thin": false,
+        "frame_counts": {
+          "security": 2,
+          "economic_consequences": 2,
+          "policy_process": 2
+        },
+        "top_frame": "security",
+        "top_frame_share": 0.33,
+        "article_types": {
+          "news_report": 6
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 6
+          },
+          "n": 6
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 3,
+            "right": 2,
+            "left": 1
+          },
+          "n": 6
+        },
+        "top_entities": [
+          "Australian Labor Party",
+          "Scott Phillips",
+          "Vanguard",
+          "Motley Fool",
+          "Melissa Browne"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_E57223AC64B2",
+            "title": "Anika Wells accused of treating voters like ‘3-year-olds’ after using Ooshies to explain housing crisis",
+            "dominant_frame": "security",
+            "summary": "Communications Minister Anika Wells is facing backlash for using Ooshies to explain Australia's housing crisis, with some likening her explanation to 'treating voters like 3-year-olds'. The minister's attempt to engage audiences on social media has been defended by some, but others find it infantilising. The housing affordability crisis remains a pressing issue in Australia."
+          },
+          {
+            "article_id": "ART_76D0DFFBEA07",
+            "title": "Unions unveil plans to extend standard lease agreements and increase public housing amid crisis",
+            "dominant_frame": "security",
+            "summary": "The Australian Council of Trade Unions is pushing for a national standard requiring landlords to offer tenants at least two years of housing security, amid the housing crisis. The proposal also includes stronger protections against unfair evictions and rent gouging. The ACTU is calling for a major public housing boost, aiming for 6% of Australia's total housing stock to be public housing."
+          }
+        ]
+      },
+      {
+        "publisher": "ABC News",
+        "articles_in_corpus": 16,
+        "articles_used": 16,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 8,
+          "security": 4,
+          "conflict": 3,
+          "policy_process": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 16
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 14,
+            "negative": 2
+          },
+          "n": 16
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 8,
+            "centre": 7,
+            "right": 1
+          },
+          "n": 16
+        },
+        "top_entities": [
+          "Reserve Bank of Australia",
+          "Sydney",
+          "SA",
+          "Tasmania",
+          "Melbourne"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_571A0F02A2C7",
+            "title": "Housing market eased 'more than anticipated', RBA says",
+            "dominant_frame": "economic_consequences",
+            "summary": "Reserve Bank governor Michele Bullock says the world has become more shock-prone in recent years, with the latest spike in oil prices adding to monetary policy challenges."
+          },
+          {
+            "article_id": "ART_A153F5010EBE",
+            "title": "Why are Sydney house prices falling in some areas, but rising in others?",
+            "dominant_frame": "economic_consequences",
+            "summary": "Sydney house prices are experiencing a downturn, with some areas seeing a 3.3% drop in the last quarter. However, other areas, such as outer suburbs, are still rising in price. Experts say the downturn is affecting premium locations first, but may eventually spread to more affordable areas."
+          },
+          {
+            "article_id": "ART_D0F13255B268",
+            "title": "Melbourne suburbs among the most mortgage-stressed in Australia",
+            "dominant_frame": "economic_consequences",
+            "summary": "Melbourne suburbs are among the most mortgage-stressed in Australia, with a doubling of calls for assistance from Mortgage Stress Victoria."
+          }
+        ]
+      },
+      {
+        "publisher": "News.com.au",
+        "articles_in_corpus": 13,
+        "articles_used": 13,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 9,
+          "policy_process": 2,
+          "conflict": 1,
+          "security": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.69,
+        "article_types": {
+          "news_report": 13
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 10,
+            "negative": 3
+          },
+          "n": 13
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 5,
+            "left": 5,
+            "right": 3
+          },
+          "n": 13
+        },
+        "top_entities": [
+          "Sydney",
+          "Melbourne",
+          "Reserve Bank of Australia",
+          "ANZ",
+          "NAB"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_6F0514643C91",
+            "title": "‘If you make $1250, you’ll pay $1850 tax bill’",
+            "dominant_frame": "economic_consequences",
+            "summary": "Australia's new capital gains tax rules could drive investment away from the country, according to a finance expert."
+          },
+          {
+            "article_id": "ART_79B576DAF353",
+            "title": "Major bank spells nightmare for investors",
+            "dominant_frame": "economic_consequences",
+            "summary": "Major bank NAB has adjusted its house price forecast for Sydney and Melbourne, warning prices could plummet by 10 per cent due to a broad-based weakening of the market."
+          },
+          {
+            "article_id": "ART_42E8EB425688",
+            "title": "‘Enough is enough’: Woman’s defiant act",
+            "dominant_frame": "economic_consequences",
+            "summary": "A woman, Chantell Vesuna, 31, from Melbourne, received financial help from her parents to buy her first home, highlighting the growing trend of family support in the Australian housing market."
+          }
+        ]
+      },
+      {
+        "publisher": "SBS News",
+        "articles_in_corpus": 12,
+        "articles_used": 12,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 6,
+          "policy_process": 3,
+          "conflict": 2,
+          "security": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 12
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 10,
+            "negative": 2
+          },
+          "n": 12
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 6,
+            "left": 5,
+            "right": 1
+          },
+          "n": 12
+        },
+        "top_entities": [
+          "Brisbane",
+          "Andrew Bragg",
+          "Perth",
+          "Victoria",
+          "Australian Labor Party"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_5A47DEFF36E9",
+            "title": "Who had it worse? The hidden shift behind Australia’s generational mortgage debate - SBS",
+            "dominant_frame": "economic_consequences",
+            "summary": "New research from KPMG shows that households in Australia are facing greater mortgage pressure now than during the late 1980s, when interest rates reached 17.5%."
+          },
+          {
+            "article_id": "ART_1EDB8FC1E3C7",
+            "title": "The city defying Australia's housing slump — and why sellers are still reaping record gains - SBS",
+            "dominant_frame": "economic_consequences",
+            "summary": "Darwin is the only capital city in Australia to record monthly home price growth, rising 0.2% in June, while the rest of the country saw a 0.3% decline in national home prices. Experts say cooling investor demand is giving first-home buyers more bargaining power, and the city's affordability is helping protect it against dips."
+          },
+          {
+            "article_id": "ART_18BD5C69505E",
+            "title": "Housing downturn accelerates, oil prices fall - SBS",
+            "dominant_frame": "economic_consequences",
+            "summary": "Australia's property market is experiencing a downturn, with national property prices falling 0.7% in July, according to Cotality data. Oil prices also fell more than 5% due to Donald Trump's decision to call off planned strikes on Iran."
+          }
+        ]
+      },
+      {
+        "publisher": "Sydney Morning Herald",
+        "articles_in_corpus": 21,
+        "articles_used": 21,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 11,
+          "conflict": 7,
+          "security": 3
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.52,
+        "article_types": {
+          "news_report": 21
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 19,
+            "negative": 1,
+            "positive": 1
+          },
+          "n": 21
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 8,
+            "left": 8,
+            "right": 5
+          },
+          "n": 21
+        },
+        "top_entities": [
+          "Melbourne",
+          "Sydney",
+          "Cotality",
+          "New South Wales",
+          "Reserve Bank of Australia"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_E6C1F65960E4",
+            "title": "How far property prices fell in the past – and how this year compares",
+            "dominant_frame": "economic_consequences",
+            "summary": "Property prices have fallen by more than 3.5% in Sydney and Melbourne since the property downturn began, with experts warning the trend could have longer to run."
+          },
+          {
+            "article_id": "ART_9C0888A0E4F1",
+            "title": "If you want to understand why houses are so expensive, go to the airport",
+            "dominant_frame": "economic_consequences",
+            "summary": "The article discusses the similarities between Australia's housing market and airport food prices, citing 'inelastic' demand and 'captive markets' as contributing factors. The article suggests that both housing and airport food prices are driven by limited supply and high costs, making it difficult for consumers to find alternatives. The article concludes that house prices can be reduced through policy changes, but airport food prices are likely to remain high due to their unique market dynamics."
+          },
+          {
+            "article_id": "ART_C70B1B78ED76",
+            "title": "Sydney real estate auctions: First home buyers pay $2.33m for north shore house with a gazebo",
+            "dominant_frame": "economic_consequences",
+            "summary": "First home buyers in Sydney are paying high prices for houses, with one buyer paying $2.33m for a north shore house. The Sydney property market is still sluggish, but clearance rates are showing signs of improvement. The article reports on two auctions where buyers paid above the reserve price, and experts say the market is slowly recovering."
+          }
+        ]
+      },
+      {
+        "publisher": "The Age",
+        "articles_in_corpus": 16,
+        "articles_used": 16,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 10,
+          "security": 2,
+          "policy_process": 2,
+          "conflict": 1,
+          "responsibility": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.62,
+        "article_types": {
+          "news_report": 16
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 13,
+            "negative": 3
+          },
+          "n": 16
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 11,
+            "left": 3,
+            "right": 2
+          },
+          "n": 16
+        },
+        "top_entities": [
+          "Sydney",
+          "Melbourne",
+          "Domain",
+          "Cotality",
+          "Reserve Bank of Australia"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_34BE025C7DBD",
+            "title": "‘Beyond reach’: Sydney’s owner-occupier rate slumps to 70-year low - theage.com.au",
+            "dominant_frame": "economic_consequences",
+            "summary": "Sydney's owner-occupier rate has fallen to a 70-year low of 59.9% in 2025, with the city's median house price rising from $646,000 to $1.79m since 2011."
+          },
+          {
+            "article_id": "ART_F8DF7ED7CC57",
+            "title": "Australian real estate: Buckle up for the banks’ mortgage war! Home loans have fallen off a cliff - theage.com.au",
+            "dominant_frame": "economic_consequences",
+            "summary": "Australian home loan applications have fallen by 15% in the June quarter, with some banks cutting interest rates to woo customers. The decline is attributed to the Reserve Bank's interest rate rises and the federal budget tax policy. The government's tax changes have also discouraged would-be first home buyers, with their mortgage applications down 23%."
+          },
+          {
+            "article_id": "ART_68FAACBAB9A4",
+            "title": "Architect-designed Sydney home fetches $12m, defying weak auction market - theage.com.au",
+            "dominant_frame": "economic_consequences",
+            "summary": "A mid-century modern home in Sydney's Hunters Hill sold for $12 million in a fast auction, defying the weak auction market. The result is marginally higher than last week's preliminary clearance rate of 49 per cent. The home's price guide was $11 million, and it attracted three registered bidders. The sellers are hoping to downsize."
+          }
+        ]
+      },
+      {
+        "publisher": "The Guardian Australia",
+        "articles_in_corpus": 8,
+        "articles_used": 4,
+        "thin": true,
+        "frame_counts": {
+          "economic_consequences": 2,
+          "responsibility": 1,
+          "security": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 4
+        },
+        "sentiment": {
+          "counts": {
+            "negative": 2,
+            "neutral": 2
+          },
+          "n": 4
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 3,
+            "centre": 1
+          },
+          "n": 4
+        },
+        "top_entities": [
+          "Reserve Bank of Australia",
+          "Homes NSW",
+          "Kate Anderson",
+          "New South Wales",
+          "Home NSW"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_FBAE444782C3",
+            "title": "Property prices are plunging in almost every capital city across Australia – see how your suburb rates",
+            "dominant_frame": "economic_consequences",
+            "summary": "Property prices are falling in almost every suburb in Australia's biggest cities, with values dropping faster in Brisbane than Sydney."
+          },
+          {
+            "article_id": "ART_57F1303B86C4",
+            "title": "Further interest rate hikes could ‘devastate’ property market without easing unaffordability",
+            "dominant_frame": "economic_consequences",
+            "summary": "Experts warn that further interest rate hikes could devastate the property market, leaving housing unaffordable."
+          }
+        ]
+      }
+    ],
+    "outlet_patterns": [
+      {
+        "publisher": "7NEWS",
+        "pattern": "7NEWS tends to focus on the economic and policy aspects of the housing crisis, often featuring experts and government officials in its coverage. It also frequently highlights the impact of the crisis on specific groups, such as first home buyers and tenants.",
+        "example_article_ids": [
+          "ART_B48B6DC7EE92",
+          "ART_A71E689D7582"
+        ],
+        "verified_article_ids": [
+          "ART_B48B6DC7EE92",
+          "ART_A71E689D7582"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "ABC News",
+        "pattern": "ABC News tends to focus on the economic and security aspects of housing, often featuring experts and data on the impact of policy changes and market trends. It also frequently covers stories on homelessness and social housing issues.",
+        "example_article_ids": [
+          "ART_571A0F02A2C7",
+          "ART_A153F5010EBE"
+        ],
+        "verified_article_ids": [
+          "ART_571A0F02A2C7",
+          "ART_A153F5010EBE"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "News.com.au",
+        "pattern": "News.com.au tends to focus on the economic consequences of housing issues, often featuring experts and data-driven analysis. It also frequently covers stories about the affordability and accessibility of housing, particularly for first-home buyers and low-income households.",
+        "example_article_ids": [
+          "ART_6F0514643C91",
+          "ART_79B576DAF353",
+          "ART_E776723CD1D2"
+        ],
+        "verified_article_ids": [
+          "ART_6F0514643C91",
+          "ART_79B576DAF353",
+          "ART_E776723CD1D2"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "SBS News",
+        "pattern": "SBS News tends to focus on the economic consequences of housing issues, such as the impact of interest rates and market trends, as well as the effects of government policies on the housing market. It often features experts and data to support its analysis. The outlet also frequently covers the struggles of low-income Australians and the need for affordable housing, highlighting the human impact of housing policy.",
+        "example_article_ids": [
+          "ART_5A47DEFF36E9",
+          "ART_18BD5C69505E",
+          "ART_40269FAACCED"
+        ],
+        "verified_article_ids": [
+          "ART_5A47DEFF36E9",
+          "ART_18BD5C69505E",
+          "ART_40269FAACCED"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "Sydney Morning Herald",
+        "pattern": "Sydney Morning Herald tends to focus on the economic consequences of housing issues, often featuring experts and data to support their arguments. It also frequently covers stories about the impact of housing on different communities, such as first-home buyers and those priced out of the market.",
+        "example_article_ids": [
+          "[ART_E6C1F65960E4]",
+          "[ART_D73A6BA85772]"
+        ],
+        "verified_article_ids": [],
+        "status": "needs_review"
+      },
+      {
+        "publisher": "The Age",
+        "pattern": "The Age tends to focus on the economic consequences of housing market trends, such as the impact of interest rate rises and government tax policies on home loan applications and prices. It also often features stories about the affordability of housing, including the gap between what buyers and sellers are willing to pay for properties.",
+        "example_article_ids": [
+          "ART_34BE025C7DBD",
+          "ART_F8DF7ED7CC57"
+        ],
+        "verified_article_ids": [
+          "ART_34BE025C7DBD",
+          "ART_F8DF7ED7CC57"
+        ],
+        "status": "ok"
+      }
+    ],
+    "overview": "The coverage of the housing crisis across the outlets focuses on different aspects of the issue. The main stories and issues across the outlets include the economic and policy aspects of the crisis, the impact of the crisis on specific groups, and the effects of government policies on the housing market.",
+    "differences": [
+      {
+        "kind": "emphasis",
+        "description": "7NEWS tends to focus on the economic and policy aspects of the housing crisis, often featuring experts and government officials in its coverage, whereas ABC News tends to focus on the economic and security aspects of housing, often featuring experts and data on the impact of policy changes and market trends.",
+        "article_ids": [
+          "ART_E57223AC64B2",
+          "ART_571A0F02A2C7"
+        ],
+        "verified_article_ids": [
+          "ART_E57223AC64B2",
+          "ART_571A0F02A2C7"
+        ],
+        "publishers_cited": [
+          "7NEWS",
+          "ABC News"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "News.com.au tends to focus on the economic consequences of housing issues, often featuring experts and data-driven analysis, whereas SBS News tends to focus on the economic consequences of housing issues, such as the impact of interest rates and market trends, as well as the effects of government policies on the housing market.",
+        "article_ids": [
+          "ART_6F0514643C91",
+          "ART_5A47DEFF36E9"
+        ],
+        "verified_article_ids": [
+          "ART_6F0514643C91",
+          "ART_5A47DEFF36E9"
+        ],
+        "publishers_cited": [
+          "News.com.au",
+          "SBS News"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "ABC News frequently covers stories on homelessness and social housing issues, whereas Sydney Morning Herald tends to focus on the impact of housing on different communities, such as first-home buyers and those priced out of the market.",
+        "article_ids": [
+          "ART_899CD1916A64",
+          "ART_C70B1B78ED76"
+        ],
+        "verified_article_ids": [
+          "ART_899CD1916A64",
+          "ART_C70B1B78ED76"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "Sydney Morning Herald"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "7NEWS often highlights the impact of the crisis on specific groups, such as first home buyers and tenants, whereas News.com.au frequently covers stories about the affordability and accessibility of housing, particularly for first-home buyers and low-income households.",
+        "article_ids": [
+          "ART_E57223AC64B2",
+          "ART_6F0514643C91"
+        ],
+        "verified_article_ids": [
+          "ART_E57223AC64B2",
+          "ART_6F0514643C91"
+        ],
+        "publishers_cited": [
+          "7NEWS",
+          "News.com.au"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "SBS News tends to focus on the economic consequences of housing issues, such as the impact of interest rates and market trends, as well as the effects of government policies on the housing market, whereas The Age tends to focus on the economic consequences of housing market trends, such as the impact of interest rate rises and government tax policies on home loan applications and prices.",
+        "article_ids": [
+          "ART_5A47DEFF36E9",
+          "ART_34BE025C7DBD"
+        ],
+        "verified_article_ids": [
+          "ART_5A47DEFF36E9",
+          "ART_34BE025C7DBD"
+        ],
+        "publishers_cited": [
+          "SBS News",
+          "The Age"
+        ],
+        "status": "ok"
+      }
+    ],
+    "provider": "ollama",
+    "model": "llama3.2:latest",
+    "prompt_version": "v1-t4",
+    "input_sha1": "3eccddae9266d061ba23aefb390485f03fe86dde",
+    "generated_at": "2026-10-15T07:19:24+00:00"
+  },
+  "immigration": {
+    "topic": "immigration",
+    "australia_only": true,
+    "articles_in_corpus": 65,
+    "articles_analysed": 65,
+    "articles_used": 49,
+    "outlets": [
+      {
+        "publisher": "7NEWS",
+        "articles_in_corpus": 8,
+        "articles_used": 8,
+        "thin": false,
+        "frame_counts": {
+          "policy_process": 5,
+          "security": 1,
+          "morality": 1,
+          "economic_consequences": 1
+        },
+        "top_frame": "policy_process",
+        "top_frame_share": 0.62,
+        "article_types": {
+          "news_report": 8
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 6,
+            "negative": 2
+          },
+          "n": 8
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 4,
+            "left": 2,
+            "right": 2
+          },
+          "n": 8
+        },
+        "top_entities": [
+          "Australian Labor Party",
+          "Coalition",
+          "Pauline Hanson",
+          "United Kingdom",
+          "Tommy Robinson"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_21098433ADD2",
+            "title": "Amanda Rishworth and Nat Barr clash over tradie ranking in skilled migration scheme",
+            "dominant_frame": "policy_process",
+            "summary": "Employment Minister Amanda Rishworth refused to say whether tradies should be prioritised over economists and animal trainers in Australia's skilled migration scheme, despite the country's housing crisis."
+          },
+          {
+            "article_id": "ART_C6E51BFB5116",
+            "title": "Pauline Hanson meets with UK far-right figure Tommy Robinson",
+            "dominant_frame": "policy_process",
+            "summary": "Pauline Hanson has met with UK far-right figure Tommy Robinson to record a podcast interview."
+          },
+          {
+            "article_id": "ART_C956A4AFDAC0",
+            "title": "The Issue Podcast: Demographer says the tax system is ‘unfair’ for families amid the great population debate",
+            "dominant_frame": "policy_process",
+            "summary": "Demographer Professor Peter McDonald says the tax system is 'unfair' for families, and the Albanese Government should support families with children. The current system is income-tested and capped, while the Coalition proposes income splitting to reduce tax paid by couples. The Labor Government aims to reduce annual net overseas migration to 225,000 by 2027-28."
+          }
+        ]
+      },
+      {
+        "publisher": "ABC News",
+        "articles_in_corpus": 15,
+        "articles_used": 13,
+        "thin": false,
+        "frame_counts": {
+          "policy_process": 4,
+          "human_interest": 4,
+          "conflict": 2,
+          "security": 2,
+          "economic_consequences": 1
+        },
+        "top_frame": "policy_process",
+        "top_frame_share": 0.31,
+        "article_types": {
+          "news_report": 13
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 9,
+            "negative": 3,
+            "positive": 1
+          },
+          "n": 13
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 10,
+            "centre": 3
+          },
+          "n": 13
+        },
+        "top_entities": [
+          "Department of Home Affairs",
+          "One Nation",
+          "Australian Labor Party",
+          "Tony Burke",
+          "Coalition"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_7BE6660C3955",
+            "title": "How Pauline Hanson's winning the migration debate",
+            "dominant_frame": "policy_process",
+            "summary": "New polling shows more Australians prefer Pauline Hanson's stance on immigration than that of either of the major parties."
+          },
+          {
+            "article_id": "ART_61B6AC38947A",
+            "title": "The 30-year policy collision behind Australia's housing crunch",
+            "dominant_frame": "policy_process",
+            "summary": "The article discusses how a 30-year policy collision between the regulation of housing and the effective deregulation of migration in Australia has led to the country's housing affordability crisis. The collision began under the Howard government in the early 2000s, with the deregulation of migration and the regulation of construction. The article highlights how this policy collision has resulted in an explosion of net overseas migration, a shortage of construction trades, and a housing market that is unable to keep up with demand."
+          },
+          {
+            "article_id": "ART_5462618109E2",
+            "title": "Labor was poised to reveal massive migration cuts, then suddenly delayed",
+            "dominant_frame": "policy_process",
+            "summary": "Australia's Home Affairs Minister Tony Burke has postponed a speech on migration changes, citing unfinalized details."
+          }
+        ]
+      },
+      {
+        "publisher": "News.com.au",
+        "articles_in_corpus": 4,
+        "articles_used": 3,
+        "thin": true,
+        "frame_counts": {
+          "economic_consequences": 2,
+          "policy_process": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.67,
+        "article_types": {
+          "news_report": 3
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 2,
+            "negative": 1
+          },
+          "n": 3
+        },
+        "political_leaning": {
+          "counts": {
+            "right": 2,
+            "left": 1
+          },
+          "n": 3
+        },
+        "top_entities": [
+          "Australian Labor Party",
+          "One Nation",
+          "Andrew McKellar",
+          "Abul Rizvi",
+          "Australian Bureau of Statistics"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_5501D604B591",
+            "title": "‘Wild’: Shock as Aussie visa fees skyrocket",
+            "dominant_frame": "economic_consequences",
+            "summary": "Australia has increased visa fees for students, backpackers, and Kiwis by nearly 200% for international students and 25% for most visa applications, sparking criticism from experts and the business community. The increases come into effect this week."
+          },
+          {
+            "article_id": "ART_D50E1833B9E7",
+            "title": "‘Tank the economy’: One Nation alert",
+            "dominant_frame": "economic_consequences",
+            "summary": "One Nation's plan to slash immigration by 750,000 over three years would 'tank the Australian economy' on a scale not seen since the 1890s Depression, a prominent political commentator warns."
+          }
+        ]
+      },
+      {
+        "publisher": "SBS News",
+        "articles_in_corpus": 2,
+        "articles_used": 2,
+        "thin": true,
+        "frame_counts": {
+          "policy_process": 2
+        },
+        "top_frame": "policy_process",
+        "top_frame_share": 1.0,
+        "article_types": {
+          "news_report": 2
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 2
+          },
+          "n": 2
+        },
+        "political_leaning": {
+          "counts": {
+            "centre": 2
+          },
+          "n": 2
+        },
+        "top_entities": [
+          "India",
+          "Narendra Modi",
+          "Indian",
+          "Anthony Albanese",
+          "Russia"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_3B052CF82962",
+            "title": "Inside Narendra Modi's Australia visit: Optics are warm. Politics are harder",
+            "dominant_frame": "policy_process",
+            "summary": "The article discusses the upcoming visit of Indian Prime Minister Narendra Modi to Australia, highlighting the complexities of their relationship and the challenges that come with it. Modi's visit is expected to focus on delivery, with experts saying it will test whether the close relationship between Australian Prime Minister Anthony Albanese and Modi can translate into concrete outcomes. The article also touches on the sensitive issues of agriculture, defence, and migration, as well as the human rights concerns surrounding Modi's government. "
+          },
+          {
+            "article_id": "ART_E67F20F199C8",
+            "title": "The competing visions for Australia's migration system",
+            "dominant_frame": "policy_process",
+            "summary": "The Australian government has unveiled its long-awaited migration reforms, aiming to reduce net overseas migration and address housing pressures. The reforms include changes to the points test, visa overstayers, and international students. The opposition parties, One Nation and the Greens, have proposed different migration policies, with One Nation aiming to end"
+          }
+        ]
+      },
+      {
+        "publisher": "Sydney Morning Herald",
+        "articles_in_corpus": 16,
+        "articles_used": 15,
+        "thin": false,
+        "frame_counts": {
+          "policy_process": 6,
+          "conflict": 5,
+          "security": 2,
+          "economic_consequences": 2
+        },
+        "top_frame": "policy_process",
+        "top_frame_share": 0.4,
+        "article_types": {
+          "news_report": 15
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 10,
+            "negative": 4,
+            "positive": 1
+          },
+          "n": 15
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 9,
+            "centre": 3,
+            "right": 3
+          },
+          "n": 15
+        },
+        "top_entities": [
+          "One Nation",
+          "Australian Labor Party",
+          "Pauline Hanson",
+          "Liberal Party",
+          "Coalition"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_68086C659AF5",
+            "title": "Labor recruits ex-Liberal premier to champion multiculturalism",
+            "dominant_frame": "policy_process",
+            "summary": "Labor has appointed former Liberal premier Peter Gutwein as chair of Australia's peak multicultural advisory council, warning that rhetoric from the right is fuelling hatred and vilification. The appointment comes amid fierce debate on the political right over multiculturalism. Gutwein said Australia had benefited from decades of bipartisan support for multiculturalism and that such an approach provided certainty and confidence in the system. He also warned that the leaning towards the right was very unhelpful and needed to be called out. The council's work helps ensure that people of all backgrounds feel valued, connected and able to contribute to Australia's future."
+          },
+          {
+            "article_id": "ART_6BD44DBC78A0",
+            "title": "‘Could see myself sitting here’: One Nation MP Farley gatecrashes Liberal meeting",
+            "dominant_frame": "policy_process",
+            "summary": "One Nation MP David Farley gatecrashed a private meeting of Liberal MPs and made a comment about sitting with them, sparking speculation about his future in the party."
+          },
+          {
+            "article_id": "ART_6BC71649003C",
+            "title": "One Nation denies fringe influencer is a member after he supports neo-Nazi rights",
+            "dominant_frame": "policy_process",
+            "summary": "One Nation party denies membership of influencer Andre Mamet after he defends neo-Nazi views"
+          }
+        ]
+      },
+      {
+        "publisher": "The Age",
+        "articles_in_corpus": 5,
+        "articles_used": 4,
+        "thin": true,
+        "frame_counts": {
+          "policy_process": 2,
+          "economic_consequences": 1,
+          "conflict": 1
+        },
+        "top_frame": "policy_process",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 4
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 4
+          },
+          "n": 4
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 2,
+            "right": 1
+          },
+          "n": 3
+        },
+        "top_entities": [
+          "Australian Labor Party",
+          "Coalition",
+          "Angus Taylor",
+          "Anthony Albanese",
+          "PBO"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_A87B1707FD5B",
+            "title": "Labor pushes to boost Pacific workers as Joyce says some Australians ‘bung lazy’",
+            "dominant_frame": "policy_process",
+            "summary": "Labor is pushing to boost Pacific workers as part of its migration plan, while One Nation and industries warn that cuts to working holidaymakers will cripple regional operations."
+          },
+          {
+            "article_id": "ART_CBC6CB083FA8",
+            "title": "Migration fix could hit parliament next week – but these sticking points remain",
+            "dominant_frame": "policy_process",
+            "summary": "The Australian government is close to announcing a new migration policy, but talks between Labor and the Coalition remain stuck on key issues. The policy aims to reduce the net overseas migration figure from 300,000 to 225,000. The Greens are unlikely to support any reduction in migration, and the Coalition has set 10 red lines for any legislation, including making it illegal to repatriate ISIS families."
+          }
+        ]
+      },
+      {
+        "publisher": "The Guardian Australia",
+        "articles_in_corpus": 15,
+        "articles_used": 4,
+        "thin": true,
+        "frame_counts": {
+          "human_interest": 2,
+          "policy_process": 2
+        },
+        "top_frame": "human_interest",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 4
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 2,
+            "positive": 1,
+            "negative": 1
+          },
+          "n": 4
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 3,
+            "centre": 1
+          },
+          "n": 4
+        },
+        "top_entities": [
+          "Fiona Stewart",
+          "Green Man",
+          "Afghanistan",
+          "United Kingdom",
+          "Javid"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_8885A2A87DF9",
+            "title": "‘A big chunk of positive energy’: Green Man celebrates 10 years of training refugees",
+            "dominant_frame": "human_interest",
+            "summary": "Green Man festival in Wales has been extending its formative experience to refugees and asylum seekers through a 10-year-old training programme."
+          },
+          {
+            "article_id": "ART_E66C15ADDC69",
+            "title": "Israeli siblings who fear breaking law in Gaza under IDF owed protection by Australia, tribunal finds",
+            "dominant_frame": "human_interest",
+            "summary": "A tribunal in Australia has found that three Israeli siblings who fear breaking international humanitarian law in Gaza should be afforded protection visas."
+          }
+        ]
+      }
+    ],
+    "outlet_patterns": [
+      {
+        "publisher": "7NEWS",
+        "pattern": "7NEWS tends to focus on the human impact of immigration policy, often featuring stories of individuals affected by changes to the system, such as the Australian man who died in immigration detention in Bali. It also frequently covers the views and actions of prominent politicians, including Pauline Hanson and Prime Minister Anthony Albanese, and the policy decisions of the Labor government. ",
+        "example_article_ids": [
+          "ART_68BA904019A2",
+          "ART_041B7EA0CFF0",
+          "ART_21098433ADD2",
+          "ART_C6E51BFB5116",
+          "ART_C956A4AFDAC0",
+          "ART_8331F403212C",
+          "ART_B53B6771FBBD",
+          "ART_ED04E2AD2205"
+        ],
+        "verified_article_ids": [
+          "ART_68BA904019A2",
+          "ART_041B7EA0CFF0",
+          "ART_21098433ADD2",
+          "ART_C6E51BFB5116",
+          "ART_C956A4AFDAC0",
+          "ART_8331F403212C",
+          "ART_B53B6771FBBD",
+          "ART_ED04E2AD2205"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "ABC News",
+        "pattern": "ABC News tends to focus on the human impact of immigration policies, often featuring stories of survivors of domestic violence, genocide, and exploitation. It also frequently highlights the personal struggles of migrants and refugees, such as those seeking asylum or navigating the complex visa system.",
+        "example_article_ids": [
+          "ART_0AB2F2A5AF10",
+          "ART_495E1B58404F",
+          "ART_4C101AA293DC"
+        ],
+        "verified_article_ids": [
+          "ART_0AB2F2A5AF10",
+          "ART_495E1B58404F",
+          "ART_4C101AA293DC"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "Sydney Morning Herald",
+        "pattern": "The Sydney Morning Herald tends to focus on the complexities and challenges of Australia's immigration system, often featuring stories about the experiences of migrant workers, the impact of migration policy on different groups, and the tensions between the federal government and state governments. The outlet also frequently covers the rise of far-right parties like One Nation and their influence on Australian politics.",
+        "example_article_ids": [
+          "ART_30454BAD4D55",
+          "ART_68086C659AF5",
+          "ART_45042CC73F6F"
+        ],
+        "verified_article_ids": [
+          "ART_30454BAD4D55",
+          "ART_68086C659AF5",
+          "ART_45042CC73F6F"
+        ],
+        "status": "ok"
+      }
+    ],
+    "overview": "The coverage of immigration across the three outlets focuses on different aspects of the issue. ABC News tends to focus on the human impact of immigration policies, often featuring stories of survivors of domestic violence, genocide, and exploitation. In contrast, 7NEWS tends to focus on the human impact of immigration policy, often featuring stories of individuals affected by changes to the system, such as the Australian man who died in immigration detention in Bali. Sydney Morning Herald tends to focus on the complexities and challenges of Australia's immigration system, often featuring stories about the experiences of migrant workers, the impact of migration policy on different groups, and the tensions between the federal government and state governments.",
+    "differences": [
+      {
+        "kind": "story_selection",
+        "description": "ABC News and 7NEWS differ in their coverage of the human impact of immigration policies, with ABC News focusing on survivors of domestic violence, genocide, and exploitation, while 7NEWS focuses on individuals affected by changes to the system, such as the Australian man who died in immigration detention in Bali.",
+        "article_ids": [
+          "ART_0AB2F2A5AF10",
+          "ART_041B7EA0CFF0"
+        ],
+        "verified_article_ids": [
+          "ART_0AB2F2A5AF10",
+          "ART_041B7EA0CFF0"
+        ],
+        "publishers_cited": [
+          "7NEWS",
+          "ABC News"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "story_selection",
+        "description": "Sydney Morning Herald and 7NEWS differ in their coverage of the complexities and challenges of Australia's immigration system, with Sydney Morning Herald focusing on the experiences of migrant workers, the impact of migration policy on different groups, and the tensions between the federal government and state governments, while 7NEWS focuses on the human impact of immigration policy.",
+        "article_ids": [
+          "ART_30454BAD4D55",
+          "ART_21098433ADD2"
+        ],
+        "verified_article_ids": [
+          "ART_30454BAD4D55",
+          "ART_21098433ADD2"
+        ],
+        "publishers_cited": [
+          "7NEWS",
+          "Sydney Morning Herald"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "story_selection",
+        "description": "ABC News and Sydney Morning Herald differ in their coverage of the rise of far-right parties like One Nation and their influence on Australian politics, with ABC News covering the party's impact on immigration policy, while Sydney Morning Herald covering the party's influence on Australian politics more broadly.",
+        "article_ids": [
+          "ART_7BE6660C3955",
+          "ART_6BC71649003C"
+        ],
+        "verified_article_ids": [
+          "ART_7BE6660C3955",
+          "ART_6BC71649003C"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "Sydney Morning Herald"
+        ],
+        "status": "ok"
+      }
+    ],
+    "provider": "ollama",
+    "model": "llama3.2:latest",
+    "prompt_version": "v1-t4",
+    "input_sha1": "909986b3aac6031c294ca6860941a0d7c90c6f12",
+    "generated_at": "2026-10-15T06:41:15+00:00"
+  },
+  "clean_energy": {
+    "topic": "clean_energy",
+    "australia_only": true,
+    "articles_in_corpus": 96,
+    "articles_analysed": 96,
+    "articles_used": 71,
+    "outlets": [
+      {
+        "publisher": "7NEWS",
+        "articles_in_corpus": 2,
+        "articles_used": 2,
+        "thin": true,
+        "frame_counts": {
+          "policy_process": 1,
+          "economic_consequences": 1
+        },
+        "top_frame": "policy_process",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 2
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 2
+          },
+          "n": 2
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 1,
+            "centre": 1
+          },
+          "n": 2
+        },
+        "top_entities": [
+          "Pacific",
+          "Palau",
+          "Anthony Albanese",
+          "Fiji",
+          "Tuvalu"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_49ADA2F5E5C9",
+            "title": "Anthony Albanese’s green energy funding for the Pacific revealed as he defends low global interest in climate conference",
+            "dominant_frame": "policy_process",
+            "summary": "Australian Prime Minister Anthony Albanese has announced funding for a solar battery project in Palau, while defending the country's investment in a pre-COP climate conference in Fiji and Tuvalu."
+          }
+        ]
+      },
+      {
+        "publisher": "ABC News",
+        "articles_in_corpus": 15,
+        "articles_used": 15,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 9,
+          "policy_process": 5,
+          "security": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.6,
+        "article_types": {
+          "news_report": 15
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 14,
+            "positive": 1
+          },
+          "n": 15
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 9,
+            "centre": 6
+          },
+          "n": 15
+        },
+        "top_entities": [
+          "Australian Energy Market Operator",
+          "United States",
+          "Queensland",
+          "New South Wales",
+          "Chris Bowen"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_DCFDEF626F69",
+            "title": "Batteries now cheaper than gas for peak demand power supply",
+            "dominant_frame": "economic_consequences",
+            "summary": "Batteries are now cheaper than gas for peak demand power supply, according to a report by the CSIRO."
+          },
+          {
+            "article_id": "ART_5B2E3A9476A4",
+            "title": "Australia's green energy targets in 'jeopardy' as wind woes worsen",
+            "dominant_frame": "economic_consequences",
+            "summary": "Australia's renewable energy targets are under threat due to the high cost of building wind turbines, according to energy analyst David Dixon."
+          },
+          {
+            "article_id": "ART_E12B185B4FB7",
+            "title": "National Press Club Address: Mark Vassella - BlueScope Managing Director and CEO National Press Club Address - ABC iview",
+            "dominant_frame": "economic_consequences",
+            "summary": "The National Press Club of Australia hosted a series of addresses by various politicians, experts, and industry leaders on various topics including the economy, climate change, healthcare, and foreign policy."
+          }
+        ]
+      },
+      {
+        "publisher": "News.com.au",
+        "articles_in_corpus": 2,
+        "articles_used": 2,
+        "thin": true,
+        "frame_counts": {
+          "conflict": 1,
+          "policy_process": 1
+        },
+        "top_frame": "conflict",
+        "top_frame_share": 0.5,
+        "article_types": {
+          "news_report": 2
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 2
+          },
+          "n": 2
+        },
+        "political_leaning": {
+          "counts": {
+            "right": 2
+          },
+          "n": 2
+        },
+        "top_entities": [
+          "Lisa Harrold",
+          "Castle Group",
+          "Mulgoa Creek",
+          "IDA",
+          "Glenmore Park"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_22609E1A73C5",
+            "title": "Mega battery threatens beloved Sydney site",
+            "dominant_frame": "conflict",
+            "summary": "A 900-megawatt battery facility proposed for Sydney's Mulgoa Road has sparked concerns over its impact on the environment and wildlife."
+          }
+        ]
+      },
+      {
+        "publisher": "SBS News",
+        "articles_in_corpus": 6,
+        "articles_used": 6,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 2,
+          "conflict": 1,
+          "human_interest": 1,
+          "policy_process": 1,
+          "security": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.33,
+        "article_types": {
+          "news_report": 6
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 5,
+            "negative": 1
+          },
+          "n": 6
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 3,
+            "centre": 3
+          },
+          "n": 6
+        },
+        "top_entities": [
+          "New South Wales",
+          "Chris Bowen",
+          "United States",
+          "Hunter",
+          "AGL"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_14A38F033063",
+            "title": "What happens when coal mines close and renewable energy takes over? - SBS",
+            "dominant_frame": "economic_consequences",
+            "summary": "Renewable energy is taking over coal mines in New South Wales, with a focus on grid-scale batteries. The Hunter region is expected to lose 12,000 jobs when coal mines close in 2030. Local residents are optimistic about the transition, but concerned about the impact on their community."
+          },
+          {
+            "article_id": "ART_1711BBC3404A",
+            "title": "Tomago Smelter gets $2.5 billion bail-out - SBS",
+            "dominant_frame": "economic_consequences",
+            "summary": "New South Wales and the Commonwealth Government have agreed to provide a $2.5 billion bailout for the Tomago Aluminium Smelter over ten years."
+          }
+        ]
+      },
+      {
+        "publisher": "Sydney Morning Herald",
+        "articles_in_corpus": 16,
+        "articles_used": 16,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 7,
+          "conflict": 4,
+          "security": 2,
+          "responsibility": 2,
+          "policy_process": 1
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.44,
+        "article_types": {
+          "news_report": 16
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 13,
+            "positive": 2,
+            "negative": 1
+          },
+          "n": 16
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 9,
+            "centre": 6,
+            "right": 1
+          },
+          "n": 16
+        },
+        "top_entities": [
+          "Victoria",
+          "New South Wales",
+          "Ben Carroll",
+          "Net Zero Commission",
+          "Paul Scully"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_1897246DDDD8",
+            "title": "ClearVue recruits world-leading solar glass expert",
+            "dominant_frame": "economic_consequences",
+            "summary": "ClearVue Technologies appoints Professor Rebecca Yang as an independent non-executive director, bringing expertise in BIPV and sustainable building technologies."
+          },
+          {
+            "article_id": "ART_EB3DE5BE5E26",
+            "title": "Danish giant steps in to help break Australia’s wind farm drought",
+            "dominant_frame": "economic_consequences",
+            "summary": "Danish investment giant Copenhagen Infrastructure Partners has acquired the Gawara Baya wind farm in North Queensland, providing a much-needed boost to Australia's renewable energy ambitions."
+          },
+          {
+            "article_id": "ART_A1D399B55C1B",
+            "title": "Critica bolsters ranks for dual critical minerals push",
+            "dominant_frame": "economic_consequences",
+            "summary": "Critica bolsters ranks for dual critical minerals push, with the appointment of experienced minerals engineer Mike Kevan as interim study manager, as the company progresses parallel studies on two major scoping studies. The company aims to strengthen its technical capability and build a scalable Australian critical minerals platform. The Mt Lindsay tin-tungsten project and the Jupiter rare earths project are expected to be completed in the third quarter of 2026."
+          }
+        ]
+      },
+      {
+        "publisher": "The Age",
+        "articles_in_corpus": 15,
+        "articles_used": 15,
+        "thin": false,
+        "frame_counts": {
+          "economic_consequences": 5,
+          "security": 4,
+          "conflict": 3,
+          "policy_process": 3
+        },
+        "top_frame": "economic_consequences",
+        "top_frame_share": 0.33,
+        "article_types": {
+          "news_report": 15
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 12,
+            "positive": 2,
+            "negative": 1
+          },
+          "n": 15
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 11,
+            "centre": 4
+          },
+          "n": 15
+        },
+        "top_entities": [
+          "Queensland",
+          "Chris Bowen",
+          "Albanese government",
+          "Brisbane",
+          "One Nation"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_D21E4B0672BF",
+            "title": "Green energy giants see $155b data centre boom as win for net zero",
+            "dominant_frame": "economic_consequences",
+            "summary": "Major renewable energy investors support Australia's data centre boom, while community and environmental campaigners express concerns about the power-hungry facilities."
+          },
+          {
+            "article_id": "ART_6B661AC9676B",
+            "title": "‘Disillusioned’ customers discover the catch in three hours of free power",
+            "dominant_frame": "economic_consequences",
+            "summary": "Australians may face higher electricity bills after signing up for the government's Solar Sharer program, which provides three hours of free power daily."
+          },
+          {
+            "article_id": "ART_2A004EDC03F0",
+            "title": "Coal plants would cut power costs by 2050, but with a massive price to pay",
+            "dominant_frame": "economic_consequences",
+            "summary": "The CSIRO says investing in more fossil fuels and limiting wind and solar farms could cut 5% off the cost of running Australia's electricity grid by 2050, but at the cost of abandoning climate commitments and increasing atmospheric pollution."
+          }
+        ]
+      },
+      {
+        "publisher": "The Guardian Australia",
+        "articles_in_corpus": 40,
+        "articles_used": 15,
+        "thin": false,
+        "frame_counts": {
+          "security": 5,
+          "conflict": 3,
+          "policy_process": 3,
+          "economic_consequences": 2,
+          "responsibility": 2
+        },
+        "top_frame": "security",
+        "top_frame_share": 0.33,
+        "article_types": {
+          "news_report": 15
+        },
+        "sentiment": {
+          "counts": {
+            "neutral": 13,
+            "negative": 2
+          },
+          "n": 15
+        },
+        "political_leaning": {
+          "counts": {
+            "left": 14,
+            "centre": 1
+          },
+          "n": 15
+        },
+        "top_entities": [
+          "Queensland",
+          "Europe",
+          "Paris",
+          "Anthony Albanese",
+          "China"
+        ],
+        "top_themes": null,
+        "examples": [
+          {
+            "article_id": "ART_5EE11F3F1BAD",
+            "title": "Fuel on the fire: why oil companies are profiting as the world gets dangerously hot | Extreme heat",
+            "dominant_frame": "security",
+            "summary": "Oil companies are increasing production despite the dangers of climate change, with some companies aiming to increase production by 14% between 2024 and 2030."
+          },
+          {
+            "article_id": "ART_09A5CA2E5FBB",
+            "title": "The climate fight has one great ally. You just can’t look at it directly | Bill McKibben",
+            "dominant_frame": "security",
+            "summary": "Climate experts and advocates are urging a rapid acceleration of clean energy to combat global warming. A group of leading advocates will deliver a letter to the UN, calling for clean energy access for everyone, everywhere by 2030."
+          },
+          {
+            "article_id": "ART_4EC8FE03DD2F",
+            "title": "Coalition and One Nation’s plan to ditch net zero would not lower power prices, CSIRO report finds",
+            "dominant_frame": "security",
+            "summary": "A CSIRO report finds that abandoning a net zero climate target would not lower power prices, and that nuclear power would be the most expensive option for electricity generation in Australia."
+          }
+        ]
+      }
+    ],
+    "outlet_patterns": [
+      {
+        "publisher": "ABC News",
+        "pattern": "ABC News tends to focus on the economic and policy aspects of clean energy, often featuring experts and industry leaders. It also frequently covers the impact of clean energy on various sectors, such as the construction and real estate industries.",
+        "example_article_ids": [
+          "ART_5B2E3A9476A4",
+          "ART_E12B185B4FB7"
+        ],
+        "verified_article_ids": [
+          "ART_5B2E3A9476A4",
+          "ART_E12B185B4FB7"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "SBS News",
+        "pattern": "SBS News tends to focus on the economic and human impact of clean energy transition, often featuring stories about job losses and community concerns, as well as the policy decisions and government responses to these changes. It also frequently covers news about renewable energy projects and investments, particularly those with significant economic or environmental implications.",
+        "example_article_ids": [
+          "ART_14A38F033063",
+          "ART_B4B6CBFFEDFD",
+          "ART_1711BBC3404A",
+          "ART_D3972465FEDD"
+        ],
+        "verified_article_ids": [
+          "ART_14A38F033063",
+          "ART_B4B6CBFFEDFD",
+          "ART_1711BBC3404A"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "Sydney Morning Herald",
+        "pattern": "The Sydney Morning Herald tends to focus on the economic and policy aspects of clean energy, often featuring companies and experts in the field. It also covers the challenges and conflicts surrounding the transition to renewable energy, such as the impact on rural communities and the role of government policies. The outlet tends to highlight the need for investment and infrastructure development to support the growth of clean energy technologies.",
+        "example_article_ids": [
+          "ART_EB3DE5BE5E26",
+          "ART_1FA6FC44C115"
+        ],
+        "verified_article_ids": [
+          "ART_EB3DE5BE5E26",
+          "ART_1FA6FC44C115"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "The Age",
+        "pattern": "The Age tends to focus on the economic and security aspects of clean energy, often featuring stories about the impact of data centres and renewable energy investments on the industry and the environment. It also frequently covers conflicts and controversies surrounding clean energy policies and the role of governments in regulating the sector.",
+        "example_article_ids": [
+          "ART_4C7FFB7E72A4",
+          "ART_D21E4B0672BF"
+        ],
+        "verified_article_ids": [
+          "ART_4C7FFB7E72A4",
+          "ART_D21E4B0672BF"
+        ],
+        "status": "ok"
+      },
+      {
+        "publisher": "The Guardian Australia",
+        "pattern": "The Guardian Australia tends to focus on the economic and social consequences of climate change, as well as the actions of corporations and governments in addressing it. It often features experts and advocates calling for urgent action to reduce greenhouse gas emissions and transition to clean energy.",
+        "example_article_ids": [
+          "ART_4EC8FE03DD2F",
+          "ART_3080B997BDF0",
+          "ART_A531A7AC7600"
+        ],
+        "verified_article_ids": [
+          "ART_4EC8FE03DD2F",
+          "ART_3080B997BDF0",
+          "ART_A531A7AC7600"
+        ],
+        "status": "ok"
+      }
+    ],
+    "overview": "The coverage of clean energy across the outlets tends to focus on the economic and policy aspects, with a emphasis on the impact of clean energy on various sectors and the role of government policies. The outlets also frequently cover news about renewable energy projects and investments, particularly those with significant economic or environmental implications. **The Sydney Morning Herald** and **ABC News** tend to focus on the economic and policy aspects, while **The Guardian Australia** tends to focus on the economic and social consequences of climate change. **SBS News** tends to focus on the economic and human impact of clean energy transition, often featuring stories about job losses and community concerns.",
+    "differences": [
+      {
+        "kind": "story_selection",
+        "description": "SBS News and ABC News differ in their coverage of the economic impact of clean energy transition, with SBS News focusing on job losses and community concerns, while ABC News focuses on the economic and policy aspects.",
+        "article_ids": [
+          "ART_14A38F033063",
+          "ART_431A4FA45759"
+        ],
+        "verified_article_ids": [
+          "ART_14A38F033063",
+          "ART_431A4FA45759"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "SBS News"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "story_selection",
+        "description": "The Sydney Morning Herald and The Guardian Australia differ in their coverage of the social consequences of climate change, with The Guardian Australia focusing on the economic and social consequences, while The Sydney Morning Herald focuses on the economic and policy aspects.",
+        "article_ids": [
+          "ART_09A5CA2E5FBB",
+          "ART_5EE11F3F1BAD"
+        ],
+        "verified_article_ids": [
+          "ART_09A5CA2E5FBB",
+          "ART_5EE11F3F1BAD"
+        ],
+        "publishers_cited": [
+          "The Guardian Australia"
+        ],
+        "status": "needs_review"
+      },
+      {
+        "kind": "story_selection",
+        "description": "The Age and ABC News differ in their coverage of the security aspects of clean energy, with The Age focusing on the impact of data centres and renewable energy investments on the industry and the environment, while ABC News focuses on the economic and policy aspects.",
+        "article_ids": [
+          "ART_46787CD056F1",
+          "ART_E12B185B4FB7"
+        ],
+        "verified_article_ids": [
+          "ART_46787CD056F1",
+          "ART_E12B185B4FB7"
+        ],
+        "publishers_cited": [
+          "ABC News",
+          "The Age"
+        ],
+        "status": "ok"
+      }
+    ],
+    "provider": "ollama",
+    "model": "llama3.2:latest",
+    "prompt_version": "v1-t4",
+    "input_sha1": "bfb6f1e015fa6a5e032083f4efb58fe5490fbedf",
+    "generated_at": "2026-10-15T07:16:28+00:00"
+  }
+}
