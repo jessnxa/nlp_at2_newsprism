@@ -112,7 +112,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Ceuta; Spain; Spanish; Morocco; Moroccan",
     "themes": null,
@@ -293,7 +293,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Ceuta; Spain; Spanish; Morocco; AFP",
     "themes": null,
@@ -408,7 +408,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Tony Burke; Australian Labor Party; One Nation; Angus Taylor; Coalition",
     "themes": null,
@@ -534,7 +534,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Greens; One Nation; Australian Labor Party; Coalition; Tony Burke",
     "themes": null,
@@ -827,7 +827,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Australian Labor Party; Hannah Ferguson; Anika Wells; Albo; Bonafide",
     "themes": null,
@@ -1301,7 +1301,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Amanda Rishworth; Nat Barr; Australian Labor Party; James Patterson; CFMEU",
     "themes": null,
@@ -1780,7 +1780,7 @@
       "s015"
     ],
     "key_language": [],
-    "political_leaning": "right",
+    "political_leaning": "left",
     "sentiment": "negative",
     "entities": "WA; John Hassell; Mic Fels; Danish; Esperance",
     "themes": null,
@@ -2227,7 +2227,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "One Nation; Pauline Hanson; Tony Barry; Sam Hawley; Australian Labor Party",
     "themes": null,
@@ -2753,7 +2753,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "positive",
     "entities": "India; New South Wales; Delhi; Indian; Asha",
     "themes": null,
@@ -2920,7 +2920,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Tony Burke; One Nation; Coalition; Medicare; National Press Club",
     "themes": null,
@@ -3143,7 +3143,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "negative",
     "entities": "Erin Barlow; Victorian Labour Hire Authority; Bassina Farbenblum; Labour Hire Authority; Michael Crisera",
     "themes": null,
@@ -3338,7 +3338,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Tony Burke; United Kingdom; British; Anthony Albanese; Sydney",
     "themes": null,
@@ -3770,7 +3770,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "One Nation; David Farley; Abul Rizvi; Australian Labor Party; Jonno Duniam",
     "themes": null,
@@ -4081,7 +4081,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Fereshteh; Iran; Instagram; Afghan; Bordertown",
     "themes": null,
@@ -4322,7 +4322,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Andrew McKellar; Abul Rizvi; Australian Bureau of Statistics; Australian Labor Party; Coalition",
     "themes": null,
@@ -4643,7 +4643,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "negative",
     "entities": "One Nation; Barnaby Joyce; ABC National Forum; Andrew Hastie; Anne Aly",
     "themes": null,
@@ -5517,7 +5517,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "negative",
     "entities": "OMARA; Department of Home Affairs; Julian Hill; Australian Border Force; Australian National Audit Office",
     "themes": null,
@@ -5752,7 +5752,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Australian Labor Party; Anthony Albanese; One Nation; WA; Farrer",
     "themes": null,
@@ -5954,7 +5954,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "David Farley; One Nation; Liberal Party; Pauline Hanson; Australian Labor Party",
     "themes": null,
@@ -6347,7 +6347,7 @@
       "s091"
     ],
     "key_language": [],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Chui; Sydney; Martin Parkinson; Tony Burke; Australian Labor Party",
     "themes": null,
@@ -6811,7 +6811,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "John Howard; Australian Labor Party; Pauline Hanson; Coalition; One Nation",
     "themes": null,
@@ -7052,7 +7052,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Thetford; Norfolk; Terry Jermy; Afghanistan; Albania",
     "themes": null,
@@ -7172,7 +7172,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "New Zealander; Australian Labor Party; Kiwi; Anthony Albanese; Howard",
     "themes": null,
@@ -7233,7 +7233,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Australian Labor Party; Tony Burke; Barnaby Joyce; Pacific; Jonno Duniam",
     "themes": null,
@@ -7564,7 +7564,7 @@
       "s017"
     ],
     "key_language": [],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Qantas; Albanese government; Adelaide; Australian Chamber of Commerce and Industry; Brisbane",
     "themes": null,
@@ -8121,7 +8121,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "French; Channel; United Kingdom; Andy Burnham; France",
     "themes": null,
@@ -8620,7 +8620,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Milo Yiannopoulos; ICE; United States; Kanye West; New Orleans",
     "themes": null,
@@ -8783,7 +8783,7 @@
       "s010"
     ],
     "key_language": [],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Burundi; United States; African; Nancy Ninette Mutoni; Burundian",
     "themes": null,
@@ -9129,7 +9129,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Scott Phillips; Vanguard; Motley Fool; Melissa Browne; ATO",
     "themes": null,
@@ -9286,7 +9286,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Australian Labor Party; Jane Hume; Mark Butler; Jerome Laxale; Sunrise",
     "themes": null,
@@ -9450,7 +9450,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Adelaide; Matthew Bowes; Anthony Albanese; CBD; Gatton Institute",
     "themes": null,
@@ -10120,7 +10120,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Brisbane; Bridget Kinch; Brisbane Zero; Caitlyn Wheatley; First Nation",
     "themes": null,
@@ -10265,7 +10265,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "SA; Property Council; Tasmania; Jordan Armstrong; Nick Champion",
     "themes": null,
@@ -10620,7 +10620,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Melbourne; Andrew Nikkelson; Mortgage Stress Victoria; Nadia Harrison; April Shortis",
     "themes": null,
@@ -10771,7 +10771,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Melbourne; Sydney; NAB; Cotality; ABC News",
     "themes": null,
@@ -10927,7 +10927,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Australian Labor Party; David Pocock; Pauline Hanson; Jim Chalmers; ACT",
     "themes": null,
@@ -11744,7 +11744,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "NT; Victoria; Western Australia; Flinders University; Tasmania",
     "themes": null,
@@ -12403,7 +12403,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "negative",
     "entities": "Bathla Group; Victoria; Building and Plumbing Commission; Master Builders Victoria; New South Wales",
     "themes": null,
@@ -12772,7 +12772,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Sydney; Coles and Woolworths; Hungry Jacks; McDonald; Melbourne",
     "themes": null,
@@ -13409,7 +13409,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Australian Labor Party; Coalition; Kos Samaras; One Nation; Melbourne",
     "themes": null,
@@ -13556,7 +13556,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Sarah Dixson; Woollahra; Sydney; Liberal Party; New South Wales",
     "themes": null,
@@ -13835,7 +13835,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "negative",
     "entities": "NAB; Brian Johnson; Barrenjoey; Reserve Bank of Australia; Westpac",
     "themes": null,
@@ -13984,7 +13984,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "John Howard; Sydney; Andrew Bragg; Melbourne; Resolve Political Monitor",
     "themes": null,
@@ -14169,7 +14169,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Ben Carroll; Bob Menzies; ACCC; Hamas; Israel",
     "themes": null,
@@ -14351,7 +14351,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Sally Tindall; Cotality; Melbourne; Reserve Bank of Australia; Sydney",
     "themes": null,
@@ -14500,7 +14500,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Sonya Kilkenny; Australian Labor Party; David Southwick; Victoria; Warren Pickering",
     "themes": null,
@@ -14593,7 +14593,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Melbourne; Sydney; Domain; Nicola Powell; Bayside",
     "themes": null,
@@ -14710,7 +14710,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Donald Trump; Democrat; House of Representatives; Republican; Congress",
     "themes": null,
@@ -15155,7 +15155,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Melbourne; Cate Bakos; Alex Jamieson; REIV; Real Estate Institute of Victoria",
     "themes": null,
@@ -16426,7 +16426,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Tim Reardon; My Bui; AMP; Australian Bureau of Statistics; Australian Labor Party",
     "themes": null,
@@ -17133,7 +17133,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "negative",
     "entities": "Aussie; Melbourne; Reserve Bank of Australia; Hawthorn; NRL",
     "themes": null,
@@ -17533,7 +17533,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Aussie; HILDA; Sarah Megginson; Roger Wilkins; Baby Boomer",
     "themes": null,
@@ -17987,7 +17987,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Liberal Party; One Nation; Australian Labor Party; Andrew Bragg; Coalition",
     "themes": null,
@@ -18177,7 +18177,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Tom Panos; Sydney; Myer; Reserve Bank of Australia; ANZ-Roy Morgan",
     "themes": null,
@@ -18340,7 +18340,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "negative",
     "entities": "VDM Prime; Blue Mountains; Mark Greenhill; Katoomba; ASIC",
     "themes": null,
@@ -18582,7 +18582,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Cotality; Tim Lawless; Diaswati Mardiasmo; PRD",
     "themes": null,
@@ -18763,7 +18763,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "FHSSS; ATO; Bec Wilson; CGT; Medicare",
     "themes": null,
@@ -19229,7 +19229,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Melbourne; Irene Kang; Shane McCullagh; Cotality; Glen Waverley Secondary College",
     "themes": null,
@@ -20218,7 +20218,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Brisbane; Saul Eslake; Daniel Handley; Jen Williams; Queensland",
     "themes": null,
@@ -20928,7 +20928,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "One Nation; Barnaby Joyce; Pauline Hanson; ABC; Coalition",
     "themes": null,
@@ -21475,7 +21475,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Zoopla; Richard Donnell; England; London; Susan Young",
     "themes": null,
@@ -21974,7 +21974,7 @@
       "s016"
     ],
     "key_language": [],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Reserve Bank of Australia; Shane Oliver; Taylor Nugent; Tom Devitt; AMP",
     "themes": null,
@@ -22400,7 +22400,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Solar Power Nation; Adrian Goodfellow; Amin Khorram; 1 Solar Australia; 7.30",
     "themes": null,
@@ -22543,7 +22543,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "David Dixon; CIS; Dan Lee; Richie Merzian; Australian Energy Market Operator",
     "themes": null,
@@ -22919,7 +22919,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "right",
     "sentiment": "neutral",
     "entities": "Lisa Harrold; Castle Group; Mulgoa Creek; IDA; Glenmore Park",
     "themes": null,
@@ -23185,7 +23185,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Hunter; New South Wales; AGL; Jeff Drayton; Liddell",
     "themes": null,
@@ -23464,7 +23464,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "New South Wales; Tomago Aluminium; Anthony Albanese; Chris Bowen; Rio Tinto",
     "themes": null,
@@ -24919,7 +24919,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "New South Wales; China; Xinjiang; CATL; Contemporary Amperex Technology Co, Ltd",
     "themes": null,
@@ -26667,7 +26667,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Angry Anderson; Barnaby Joyce; One Nation; AFP; Australian Labor Party",
     "themes": null,
@@ -27379,7 +27379,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Andy Burnham; EU; United Kingdom; Gaza; London",
     "themes": null,
@@ -27494,7 +27494,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Gautam Adani; Indian; Queensland; Adani Group; India",
     "themes": null,
@@ -28763,7 +28763,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Coalition; Dan Tehan; Darren Chester; Greens; NT",
     "themes": null,
@@ -29552,7 +29552,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "GKNP; New South Wales; Megan Evans; Clean Energy Regulator; Frank Jotzo",
     "themes": null,
@@ -30296,7 +30296,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Ben Carroll; Jacinta Allan; Australian Labor Party; Lily D'Ambrosio; Victoria",
     "themes": null,
@@ -30483,7 +30483,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Robbie Campbell; ACCC; Australian Competition and Consumer Commission; Australian Energy Market Operator; Green Energy Markets",
     "themes": null,
@@ -31313,7 +31313,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "Jemena; Milco Bogoevski; Yarraville; Ben Carroll; Footscray",
     "themes": null,
@@ -31472,7 +31472,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "United States; China; Anthropic; ASD; American",
     "themes": null,
@@ -32166,7 +32166,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Carrington; Greater Manchester; Pornainen; Trafford; Andy Burnham",
     "themes": null,
@@ -32476,7 +32476,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "China; Chris; DrBlamm0; England; France",
     "themes": null,
@@ -32631,7 +32631,7 @@
         }
       }
     ],
-    "political_leaning": "right",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Queensland; NT; Anthony Albanese; Albanese government; Canberra",
     "themes": null,
@@ -32892,7 +32892,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "Carl Hogg; Good Energy; United Kingdom; MCS; NICEIC",
     "themes": null,
@@ -33009,7 +33009,7 @@
       "s006"
     ],
     "key_language": [],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "positive",
     "entities": "United Kingdom",
     "themes": null,
@@ -33298,7 +33298,7 @@
         }
       }
     ],
-    "political_leaning": "left",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "United Kingdom; Europe; European; Jess Ralston; Amperon",
     "themes": null,
@@ -33629,7 +33629,7 @@
     "frame_reason": "US-China trade tensions",
     "frame_sentence_ids": [],
     "key_language": [],
-    "political_leaning": "right",
+    "political_leaning": "centre",
     "sentiment": "neutral",
     "entities": "United States; China; Donald Trump; Chinese; Beijing",
     "themes": null,
@@ -34652,7 +34652,7 @@
         }
       }
     ],
-    "political_leaning": "centre",
+    "political_leaning": "left",
     "sentiment": "neutral",
     "entities": "RiversMeet; Good Energy; Jake Parry; Mark Coyle; United Kingdom",
     "themes": null,

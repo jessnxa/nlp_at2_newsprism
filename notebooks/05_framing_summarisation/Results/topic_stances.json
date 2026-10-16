@@ -3,64 +3,92 @@
     "topic": "housing",
     "australia_only": true,
     "articles_per_stance": {
-      "left": 45,
-      "centre": 37,
-      "right": 6
+      "left": 33,
+      "centre": 41,
+      "right": 14
     },
     "articles_without_stance": 0,
     "outlets_per_stance": {
       "left": {
-        "Sydney Morning Herald": 12,
         "ABC News": 8,
-        "The Age": 8,
-        "News.com.au": 6,
-        "SBS News": 6,
-        "7NEWS": 3,
-        "The Guardian Australia": 2
+        "Sydney Morning Herald": 8,
+        "News.com.au": 5,
+        "SBS News": 5,
+        "The Age": 3,
+        "The Guardian Australia": 3,
+        "7NEWS": 1
       },
       "centre": {
-        "ABC News": 8,
-        "The Age": 7,
-        "News.com.au": 6,
+        "The Age": 11,
+        "Sydney Morning Herald": 8,
+        "ABC News": 7,
         "SBS News": 6,
-        "Sydney Morning Herald": 6,
-        "7NEWS": 2,
-        "The Guardian Australia": 2
+        "News.com.au": 5,
+        "7NEWS": 3,
+        "The Guardian Australia": 1
       },
       "right": {
-        "Sydney Morning Herald": 3,
-        "7NEWS": 1,
-        "News.com.au": 1,
-        "The Age": 1
+        "Sydney Morning Herald": 5,
+        "News.com.au": 3,
+        "7NEWS": 2,
+        "The Age": 2,
+        "ABC News": 1,
+        "SBS News": 1
       }
     },
-    "overview": "The news coverage of the housing topic differs between groups of articles, with distinct patterns and emphases. The left-leaning group focuses on the need for more affordable housing, criticizing the government's policies and highlighting the struggles of low-income Australians. They emphasize the importance of addressing housing demand through increased supply and affordable options. The centre group takes a more neutral stance, discussing the economic and policy implications of the housing market, including the impact of interest rates and government reforms. They also touch on the issue of affordability and the need for more housing supply. The right-leaning group is more focused on the economic and policy aspects of the housing market, criticizing the government's policies and highlighting the potential consequences of further interest rate hikes. They emphasize the importance of market forces and the need for more housing supply to address affordability issues. Overall, the groups differ in their tone and emphasis, with the left-leaning group being more critical of the government and the right-leaning group being more focused on economic and policy implications.",
+    "overview": "The topic of housing is covered by three groups of articles with different stances: left, centre, and right. The left group focuses on the housing crisis, highlighting the struggles of low-income families and the need for affordable housing. They emphasize the importance of social housing and criticize the government's policies for not addressing the issue. The centre group takes a more neutral stance, discussing the economic consequences of the housing market and the impact of government policies on the market. They also highlight the need for more affordable housing and the importance of increasing housing supply. The right group focuses on the economic consequences of the housing market, emphasizing the need for market-driven solutions to address the housing crisis. They criticize government policies for interfering with the market and argue that the government should focus on reducing regulations and increasing housing supply rather than providing subsidies and social housing. ",
     "stance_summaries": [
       {
         "stance": "left",
-        "summary": "The left-leaning group focuses on the need for more affordable housing, criticizing the government's policies and highlighting the struggles of low-income Australians. They emphasize the importance of addressing housing demand through increased supply and affordable options. Articles in this group discuss the impact of government policies on housing affordability, the struggles of low-income Australians, and the need for more affordable housing options. Quotes from experts and politicians are used to support the argument that the government's policies are not doing enough to address the housing affordability crisis. The tone of the articles in this group is critical of the government and emphasizes the need for more affordable housing options.",
-        "emphasis": "affordable housing, government policies, low-income Australians, housing demand, supply and demand",
+        "summary": "The left group focuses on the housing crisis, highlighting the struggles of low-income families and the need for affordable housing. They emphasize the importance of social housing and criticize the government's policies for not addressing the issue. They also discuss the impact of the housing market on vulnerable populations, such as women and children fleeing domestic violence. The group highlights the need for more affordable housing and the importance of increasing housing supply. They also discuss the role of government policies in exacerbating the housing crisis and the need for more effective policies to address the issue. ",
+        "emphasis": "The left group emphasizes the importance of social housing and the need for affordable housing. They also highlight the struggles of low-income families and the need for more effective government policies to address the housing crisis. ",
         "key_claims": [
           {
-            "claim": "The government's policies are not doing enough to address the housing affordability crisis.",
+            "claim": "The housing crisis is a major issue in Australia, with many low-income families struggling to afford housing. ",
             "support": [
               {
-                "article_id": "ART_B8775462894A",
+                "article_id": "ART_53A8389573F4",
+                "sentence_id": "s013",
+                "quote": "In reality, the adjustment will likely take place via a combination of lower dwelling prices and higher rents...",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s013",
+                  "cited_ok": true
+                },
+                "evidence_notes": []
+              },
+              {
+                "article_id": "ART_899CD1916A64",
                 "sentence_id": "s024",
-                "quote": "She argued the government instead needed to address housing demand by building more homes and ",
+                "quote": "The cost of living is making it really hard for people to make ends meet so they are moving into homelessness because they can't afford the rent they were paying,",
                 "stance": "left",
                 "check": {
                   "status": "exact",
                   "found_in": "s024",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
               }
             ],
             "verified_support": [
               {
-                "article_id": "ART_B8775462894A",
+                "article_id": "ART_53A8389573F4",
+                "sentence_id": "s013",
+                "quote": "In reality, the adjustment will likely take place via a combination of lower dwelling prices and higher rents...",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s013",
+                  "cited_ok": true
+                }
+              },
+              {
+                "article_id": "ART_899CD1916A64",
                 "sentence_id": "s024",
-                "quote": "She argued the government instead needed to address housing demand by building more homes and ",
+                "quote": "The cost of living is making it really hard for people to make ends meet so they are moving into homelessness because they can't afford the rent they were paying,",
                 "stance": "left",
                 "check": {
                   "status": "exact",
@@ -70,166 +98,732 @@
               }
             ],
             "status": "ok",
-            "human_review": "yes"
+            "human_review": "yes",
+            "strict_status": "ok",
+            "strict_reasons": []
           },
           {
-            "claim": "Low-income Australians are struggling to afford housing.",
+            "claim": "The government's policies are not addressing the housing crisis, and more effective policies are needed. ",
             "support": [
               {
-                "article_id": "ART_DE02434F957E",
-                "sentence_id": "s001",
-                "quote": "First home buyers in three Australian jurisdictions are being slugged tens of thousands of dollars in taxes when buying established homes, as a property industry lobby says now is the time for concessions.",
+                "article_id": "ART_53A8389573F4",
+                "sentence_id": "s030",
+                "quote": "There should be in the press gallery great scepticism of the government’s prediction that its reforms will nudge up rent by a meagre $2 a week.",
                 "stance": "left",
                 "check": {
                   "status": "exact",
-                  "found_in": "s001",
+                  "found_in": "s030",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": []
+              },
+              {
+                "article_id": "ART_899CD1916A64",
+                "sentence_id": "s016",
+                "quote": "This reinforces that homelessness isn’t just a housing issue,",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s016",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
               }
             ],
             "verified_support": [
               {
-                "article_id": "ART_DE02434F957E",
-                "sentence_id": "s001",
-                "quote": "First home buyers in three Australian jurisdictions are being slugged tens of thousands of dollars in taxes when buying established homes, as a property industry lobby says now is the time for concessions.",
+                "article_id": "ART_53A8389573F4",
+                "sentence_id": "s030",
+                "quote": "There should be in the press gallery great scepticism of the government’s prediction that its reforms will nudge up rent by a meagre $2 a week.",
                 "stance": "left",
                 "check": {
                   "status": "exact",
-                  "found_in": "s001",
+                  "found_in": "s030",
+                  "cited_ok": true
+                }
+              },
+              {
+                "article_id": "ART_899CD1916A64",
+                "sentence_id": "s016",
+                "quote": "This reinforces that homelessness isn’t just a housing issue,",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s016",
                   "cited_ok": true
                 }
               }
             ],
             "status": "ok",
-            "human_review": "yes"
+            "human_review": "yes",
+            "strict_status": "ok",
+            "strict_reasons": []
           }
         ],
         "status": "ok"
       },
       {
         "stance": "centre",
-        "summary": "The centre group takes a more neutral stance, discussing the economic and policy implications of the housing market, including the impact of interest rates and government reforms. They also touch on the issue of affordability and the need for more housing supply. Articles in this group discuss the economic and policy implications of the housing market, including the impact of interest rates and government reforms. Quotes from experts and politicians are used to support the argument that the government's policies are having a mixed impact on the housing market. The tone of the articles in this group is neutral and emphasizes the need for more housing supply to address affordability issues.",
-        "emphasis": "economic and policy implications, interest rates, government reforms, affordability, housing supply",
+        "summary": "The centre group takes a more neutral stance, discussing the economic consequences of the housing market and the impact of government policies on the market. They also highlight the need for more affordable housing and the importance of increasing housing supply. The group discusses the role of government policies in shaping the housing market and the need for more effective policies to address the housing crisis. They also highlight the importance of increasing housing supply and the need for more affordable housing. ",
+        "emphasis": "The centre group emphasizes the importance of increasing housing supply and the need for more affordable housing. They also highlight the need for more effective government policies to address the housing crisis. ",
         "key_claims": [
           {
-            "claim": "The government's policies are having a mixed impact on the housing market.",
+            "claim": "The housing market is experiencing a downturn, with prices falling in many areas. ",
             "support": [
               {
                 "article_id": "ART_A71E689D7582",
-                "sentence_id": "s005",
-                "quote": "Property's value can only grow as fast as buyers can afford to pay for it, and that's capped by wage growth.",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s005",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_A71E689D7582",
-                "sentence_id": "s005",
-                "quote": "Property's value can only grow as fast as buyers can afford to pay for it, and that's capped by wage growth.",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s005",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "no"
-          },
-          {
-            "claim": "More housing supply is needed to address affordability issues.",
-            "support": [
-              {
-                "article_id": "ART_E53A3486822E",
-                "sentence_id": "s004",
-                "quote": "Exploring housing diversity, including smaller homes on smaller lots, will help boost housing supply and improve affordability,",
+                "sentence_id": "s002",
+                "quote": "Figures released by real estate company Domain showed a turning point for the city’s house prices, which saw the largest drop in the country of 3.3 per cent on the last quarter.",
                 "stance": "centre",
                 "check": {
                   "status": "missing",
                   "found_in": null,
                   "cited_ok": false
+                },
+                "evidence_notes": [
+                  "not in the cited article (found in ART_A153F5010EBE)"
+                ]
+              },
+              {
+                "article_id": "ART_E53A3486822E",
+                "sentence_id": "s002",
+                "quote": "Hundreds",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s001",
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker",
+                  "fragment under 6 words"
+                ]
+              }
+            ],
+            "verified_support": [
+              {
+                "article_id": "ART_E53A3486822E",
+                "sentence_id": "s002",
+                "quote": "Hundreds",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s001",
+                  "cited_ok": false
                 }
               }
             ],
-            "verified_support": [],
-            "status": "needs_review",
-            "human_review": "no"
+            "status": "ok",
+            "human_review": "yes",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "same claim given to another group",
+              "no quote of 6+ words from this group"
+            ]
+          },
+          {
+            "claim": "The government's policies are having a significant impact on the housing market, and more effective policies are needed. ",
+            "support": [
+              {
+                "article_id": "ART_E53A3486822E",
+                "sentence_id": "s003",
+                "quote": "about 750",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s003",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker",
+                  "fragment under 6 words"
+                ]
+              },
+              {
+                "article_id": "ART_E776723CD1D2",
+                "sentence_id": "s007",
+                "quote": "AVJennings are absolutely adamant that they will be delivered",
+                "stance": "centre",
+                "check": {
+                  "status": "missing",
+                  "found_in": null,
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "not in the cited article (found in ART_E53A3486822E)"
+                ]
+              }
+            ],
+            "verified_support": [
+              {
+                "article_id": "ART_E53A3486822E",
+                "sentence_id": "s003",
+                "quote": "about 750",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s003",
+                  "cited_ok": true
+                }
+              }
+            ],
+            "status": "ok",
+            "human_review": "no",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "same claim given to another group",
+              "no quote of 6+ words from this group"
+            ]
           }
         ],
         "status": "ok"
       },
       {
         "stance": "right",
-        "summary": "The right-leaning group is more focused on the economic and policy aspects of the housing market, criticizing the government's policies and highlighting the potential consequences of further interest rate hikes. They emphasize the importance of market forces and the need for more housing supply to address affordability issues. Articles in this group discuss the economic and policy implications of the housing market, including the impact of interest rates and government reforms. Quotes from experts and politicians are used to support the argument that the government's policies are having a negative impact on the housing market. The tone of the articles in this group is critical of the government and emphasizes the need for more housing supply to address affordability issues.",
-        "emphasis": "economic and policy implications, interest rates, government reforms, market forces, housing supply",
+        "summary": "The right group focuses on the economic consequences of the housing market, emphasizing the need for market-driven solutions to address the housing crisis. They criticize government policies for interfering with the market and argue that the government should focus on reducing regulations and increasing housing supply rather than providing subsidies and social housing. The group highlights the importance of increasing housing supply and the need for more affordable housing. They also discuss the role of government policies in exacerbating the housing crisis and the need for more effective policies to address the issue. ",
+        "emphasis": "The right group emphasizes the importance of market-driven solutions to address the housing crisis. They also highlight the need for more affordable housing and the importance of increasing housing supply. ",
         "key_claims": [
           {
-            "claim": "The government's policies are having a negative impact on the housing market.",
+            "claim": "The housing market is experiencing a downturn, with prices falling in many areas. ",
             "support": [
               {
-                "article_id": "ART_B48B6DC7EE92",
-                "sentence_id": "s004",
-                "quote": "Before the budget, super was still better than investing in your own name because of the tax advantages that come with it.",
+                "article_id": "ART_E57223AC64B2",
+                "sentence_id": "s002",
+                "quote": "What do (Ooshies) and the Australian housing market have in common?",
                 "stance": "right",
                 "check": {
                   "status": "exact",
-                  "found_in": "s004",
+                  "found_in": "s003",
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              },
+              {
+                "article_id": "ART_B8775462894A",
+                "sentence_id": "s008",
+                "quote": "That’s a deliberate result of the policies that we’ve put in place.",
+                "stance": "right",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s008",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": []
               }
             ],
             "verified_support": [
               {
-                "article_id": "ART_B48B6DC7EE92",
-                "sentence_id": "s004",
-                "quote": "Before the budget, super was still better than investing in your own name because of the tax advantages that come with it.",
+                "article_id": "ART_E57223AC64B2",
+                "sentence_id": "s002",
+                "quote": "What do (Ooshies) and the Australian housing market have in common?",
                 "stance": "right",
                 "check": {
                   "status": "exact",
-                  "found_in": "s004",
+                  "found_in": "s003",
+                  "cited_ok": false
+                }
+              },
+              {
+                "article_id": "ART_B8775462894A",
+                "sentence_id": "s008",
+                "quote": "That’s a deliberate result of the policies that we’ve put in place.",
+                "stance": "right",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s008",
                   "cited_ok": true
                 }
               }
             ],
             "status": "ok",
-            "human_review": "no"
+            "human_review": "no",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "same claim given to another group"
+            ]
           },
           {
-            "claim": "More housing supply is needed to address affordability issues.",
+            "claim": "The government's policies are having a significant impact on the housing market, and more effective policies are needed. ",
             "support": [
               {
-                "article_id": "ART_9570D58C5F32",
-                "sentence_id": "s021",
-                "quote": "the government’s proposed changes to negative gearing was acting as the largest weight on house prices, even greater than this year’s interest rate rises.",
+                "article_id": "ART_B8775462894A",
+                "sentence_id": "s014",
+                "quote": "Only Labor seems to do this.",
                 "stance": "right",
                 "check": {
                   "status": "exact",
-                  "found_in": "s021",
+                  "found_in": "s014",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              },
+              {
+                "article_id": "ART_65669C166135",
+                "sentence_id": "s019",
+                "quote": "Investors in established locations are pretty much all but gone.",
+                "stance": "right",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s019",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
               }
             ],
             "verified_support": [
               {
-                "article_id": "ART_9570D58C5F32",
-                "sentence_id": "s021",
-                "quote": "the government’s proposed changes to negative gearing was acting as the largest weight on house prices, even greater than this year’s interest rate rises.",
+                "article_id": "ART_B8775462894A",
+                "sentence_id": "s014",
+                "quote": "Only Labor seems to do this.",
                 "stance": "right",
                 "check": {
                   "status": "exact",
-                  "found_in": "s021",
+                  "found_in": "s014",
+                  "cited_ok": true
+                }
+              },
+              {
+                "article_id": "ART_65669C166135",
+                "sentence_id": "s019",
+                "quote": "Investors in established locations are pretty much all but gone.",
+                "stance": "right",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s019",
                   "cited_ok": true
                 }
               }
             ],
             "status": "ok",
-            "human_review": "partly"
+            "human_review": "no",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "same claim given to another group"
+            ]
+          }
+        ],
+        "status": "ok"
+      }
+    ],
+    "differences": [
+      {
+        "kind": "story_selection",
+        "description": "The left group focuses on the housing crisis, highlighting the struggles of low-income families and the need for affordable housing. The centre group takes a more neutral stance, discussing the economic consequences of the housing market and the impact of government policies on the market. The right group focuses on the economic consequences of the housing market, emphasizing the need for market-driven solutions to address the housing crisis. ",
+        "support": [
+          {
+            "article_id": "ART_53A8389573F4",
+            "sentence_id": "s013",
+            "quote": "In reality, the adjustment will likely take place via a combination of lower dwelling prices and higher rents...",
+            "stance": "left",
+            "check": {
+              "status": "exact",
+              "found_in": "s013",
+              "cited_ok": true
+            }
+          },
+          {
+            "article_id": "ART_A71E689D7582",
+            "sentence_id": "s002",
+            "quote": "Figures released by real estate company Domain showed a turning point for the city’s house prices, which saw the largest drop in the country of 3.3 per cent on the last quarter.",
+            "stance": "centre",
+            "check": {
+              "status": "missing",
+              "found_in": null,
+              "cited_ok": false
+            }
+          },
+          {
+            "article_id": "ART_E57223AC64B2",
+            "sentence_id": "s002",
+            "quote": "What do (Ooshies) and the Australian housing market have in common?",
+            "stance": "right",
+            "check": {
+              "status": "exact",
+              "found_in": "s003",
+              "cited_ok": false
+            }
+          }
+        ],
+        "stances_cited": [
+          "left",
+          "right"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "emphasis",
+        "description": "The left group emphasizes the importance of social housing and the need for affordable housing. The centre group emphasizes the importance of increasing housing supply and the need for more affordable housing. The right group emphasizes the importance of market-driven solutions to address the housing crisis. ",
+        "support": [
+          {
+            "article_id": "ART_53A8389573F4",
+            "sentence_id": "s013",
+            "quote": "In reality, the adjustment will likely take place via a combination of lower dwelling prices and higher rents...",
+            "stance": "left",
+            "check": {
+              "status": "exact",
+              "found_in": "s013",
+              "cited_ok": true
+            }
+          },
+          {
+            "article_id": "ART_A71E689D7582",
+            "sentence_id": "s002",
+            "quote": "Figures released by real estate company Domain showed a turning point for the city’s house prices, which saw the largest drop in the country of 3.3 per cent on the last quarter.",
+            "stance": "centre",
+            "check": {
+              "status": "missing",
+              "found_in": null,
+              "cited_ok": false
+            }
+          },
+          {
+            "article_id": "ART_E57223AC64B2",
+            "sentence_id": "s002",
+            "quote": "What do (Ooshies) and the Australian housing market have in common?",
+            "stance": "right",
+            "check": {
+              "status": "exact",
+              "found_in": "s003",
+              "cited_ok": false
+            }
+          }
+        ],
+        "stances_cited": [
+          "left",
+          "right"
+        ],
+        "status": "ok"
+      },
+      {
+        "kind": "story_selection",
+        "description": "The left group focuses on the housing crisis, highlighting the struggles of low-income families and the need for affordable housing. The centre group takes a more neutral stance, discussing the economic consequences of the housing market and the impact of government policies on the market. The right group focuses on the economic consequences of the housing market, emphasizing the need for market-driven solutions to address the housing crisis. ",
+        "support": [
+          {
+            "article_id": "ART_53A8389573F4",
+            "sentence_id": "s013",
+            "quote": "In reality, the adjustment will likely take place via a combination of lower dwelling prices and higher rents...",
+            "stance": "left",
+            "check": {
+              "status": "exact",
+              "found_in": "s013",
+              "cited_ok": true
+            }
+          },
+          {
+            "article_id": "ART_A71E689D7582",
+            "sentence_id": "s002",
+            "quote": "Figures released by real estate company Domain showed a turning point for the city’s house prices, which saw the largest drop in the country of 3.3 per cent on the last quarter.",
+            "stance": "centre",
+            "check": {
+              "status": "missing",
+              "found_in": null,
+              "cited_ok": false
+            }
+          },
+          {
+            "article_id": "ART_E57223AC64B2",
+            "sentence_id": "s002",
+            "quote": "What do (Ooshies) and the Australian housing market have in common?",
+            "stance": "right",
+            "check": {
+              "status": "exact",
+              "found_in": "s003",
+              "cited_ok": false
+            }
+          }
+        ],
+        "stances_cited": [
+          "left",
+          "right"
+        ],
+        "status": "ok"
+      }
+    ],
+    "model": "llama3.1:8b",
+    "generated_at": "2026-10-14T13:12:09+00:00"
+  },
+  "immigration": {
+    "topic": "immigration",
+    "australia_only": true,
+    "articles_per_stance": {
+      "left": 27,
+      "centre": 13,
+      "right": 8
+    },
+    "articles_without_stance": 1,
+    "outlets_per_stance": {
+      "left": {
+        "ABC News": 10,
+        "Sydney Morning Herald": 9,
+        "The Guardian Australia": 3,
+        "7NEWS": 2,
+        "The Age": 2,
+        "News.com.au": 1
+      },
+      "centre": {
+        "7NEWS": 4,
+        "ABC News": 3,
+        "Sydney Morning Herald": 3,
+        "SBS News": 2,
+        "The Guardian Australia": 1
+      },
+      "right": {
+        "Sydney Morning Herald": 3,
+        "7NEWS": 2,
+        "News.com.au": 2,
+        "The Age": 1
+      }
+    },
+    "overview": "The news coverage of immigration in Australia differs between left, centre, and right-leaning groups of articles. The left-leaning group focuses on the human impact of immigration policies, highlighting the struggles of refugees, asylum seekers, and migrant workers. They also report on the government's efforts to address these issues, such as the introduction of digital passenger cards and the crackdown on unqualified migration agents. The centre-leaning group covers a broader range of topics, including the government's migration reforms, the impact of immigration on the economy, and the challenges faced by international students. They also report on the government's efforts to address these issues, such as the introduction of new licence conditions for companies hosting migrant workers. The right-leaning group focuses on the economic and security implications of immigration, highlighting the need for stricter border controls and the potential risks of uncontrolled migration. They also report on the government's efforts to address these issues, such as the introduction of new visa fees and the proposal to reset net overseas migration to zero. Overall, the coverage of immigration in Australia reflects the different priorities and concerns of each group, with the left-leaning group emphasizing the human impact, the centre-leaning group covering a broader range of topics, and the right-leaning group focusing on economic and security implications.",
+    "stance_summaries": [
+      {
+        "stance": "left",
+        "summary": "The left-leaning group focuses on the human impact of immigration policies, highlighting the struggles of refugees, asylum seekers, and migrant workers. They report on the government's efforts to address these issues, such as the introduction of digital passenger cards and the crackdown on unqualified migration agents. The group also covers the challenges faced by international students and the impact of immigration on the economy.",
+        "emphasis": "human impact, government efforts, international students, economy",
+        "key_claims": [
+          {
+            "claim": "The government's efforts to address the challenges faced by refugees, asylum seekers, and migrant workers are crucial to ensuring their well-being and integration into Australian society.",
+            "support": [
+              {
+                "article_id": "ART_7A8CDE5EFBC9",
+                "sentence_id": "s002",
+                "quote": "The Rohingya, a Muslim ethnic group, have lived in mainly Buddhist Myanmar for centuries, where they have suffered killings, forced evictions and other atrocities.",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s002",
+                  "cited_ok": true
+                },
+                "evidence_notes": []
+              },
+              {
+                "article_id": "ART_4C101AA293DC",
+                "sentence_id": "s011",
+                "quote": "Not by accident, and not by a few rogue employers.",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s011",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              }
+            ],
+            "verified_support": [
+              {
+                "article_id": "ART_7A8CDE5EFBC9",
+                "sentence_id": "s002",
+                "quote": "The Rohingya, a Muslim ethnic group, have lived in mainly Buddhist Myanmar for centuries, where they have suffered killings, forced evictions and other atrocities.",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s002",
+                  "cited_ok": true
+                }
+              },
+              {
+                "article_id": "ART_4C101AA293DC",
+                "sentence_id": "s011",
+                "quote": "Not by accident, and not by a few rogue employers.",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s011",
+                  "cited_ok": true
+                }
+              }
+            ],
+            "status": "ok",
+            "human_review": "no",
+            "strict_status": "ok",
+            "strict_reasons": []
+          },
+          {
+            "claim": "The government's introduction of digital passenger cards will simplify the arrivals process and improve national security.",
+            "support": [
+              {
+                "article_id": "ART_68952A28D808",
+                "sentence_id": "s001",
+                "quote": "The days of filling out paper arrival cards are to end for millions of travellers arriving in Australia on international flights.",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s001",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "from a centre article"
+                ]
+              }
+            ],
+            "verified_support": [],
+            "status": "needs_review",
+            "human_review": "partly",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "no quote of 6+ words from this group"
+            ]
+          }
+        ],
+        "status": "ok"
+      },
+      {
+        "stance": "centre",
+        "summary": "The centre-leaning group covers a broader range of topics, including the government's migration reforms, the impact of immigration on the economy, and the challenges faced by international students. They report on the government's efforts to address these issues, such as the introduction of new licence conditions for companies hosting migrant workers.",
+        "emphasis": "government efforts, international students, economy, migration reforms",
+        "key_claims": [
+          {
+            "claim": "The government's migration reforms aim to reduce net overseas migration and address housing pressures.",
+            "support": [
+              {
+                "article_id": "ART_E67F20F199C8",
+                "sentence_id": "s014",
+                "quote": "We need immigration to soften enough that housing has a chance to catch up,",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s014",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              }
+            ],
+            "verified_support": [
+              {
+                "article_id": "ART_E67F20F199C8",
+                "sentence_id": "s014",
+                "quote": "We need immigration to soften enough that housing has a chance to catch up,",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s014",
+                  "cited_ok": true
+                }
+              }
+            ],
+            "status": "ok",
+            "human_review": "yes",
+            "strict_status": "ok",
+            "strict_reasons": []
+          },
+          {
+            "claim": "The government's introduction of new licence conditions for companies hosting migrant workers will improve working conditions and protect migrant workers' rights.",
+            "support": [
+              {
+                "article_id": "ART_76B26CB16095",
+                "sentence_id": "s010",
+                "quote": "When people pay a migration agent they rightly expect a qualified person will do the work, not an untrained, unregistered fake agent",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s010",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              }
+            ],
+            "verified_support": [
+              {
+                "article_id": "ART_76B26CB16095",
+                "sentence_id": "s010",
+                "quote": "When people pay a migration agent they rightly expect a qualified person will do the work, not an untrained, unregistered fake agent",
+                "stance": "centre",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s010",
+                  "cited_ok": true
+                }
+              }
+            ],
+            "status": "ok",
+            "human_review": "no",
+            "strict_status": "ok",
+            "strict_reasons": []
+          }
+        ],
+        "status": "ok"
+      },
+      {
+        "stance": "right",
+        "summary": "The right-leaning group focuses on the economic and security implications of immigration, highlighting the need for stricter border controls and the potential risks of uncontrolled migration. They report on the government's efforts to address these issues, such as the introduction of new visa fees and the proposal to reset net overseas migration to zero.",
+        "emphasis": "economic implications, security implications, border controls, visa fees",
+        "key_claims": [
+          {
+            "claim": "The government's introduction of new visa fees will help to control the migration system and reduce the economic burden on Australian taxpayers.",
+            "support": [
+              {
+                "article_id": "ART_5501D604B591",
+                "sentence_id": "s037",
+                "quote": "Income thresholds are indexed annually so wages for skilled migrants increase at the same rate as Australian workers,",
+                "stance": "right",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s037",
+                  "cited_ok": true
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              }
+            ],
+            "verified_support": [
+              {
+                "article_id": "ART_5501D604B591",
+                "sentence_id": "s037",
+                "quote": "Income thresholds are indexed annually so wages for skilled migrants increase at the same rate as Australian workers,",
+                "stance": "right",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s037",
+                  "cited_ok": true
+                }
+              }
+            ],
+            "status": "ok",
+            "human_review": "no",
+            "strict_status": "ok",
+            "strict_reasons": []
+          },
+          {
+            "claim": "The government's proposal to reset net overseas migration to zero will help to address the economic and security implications of uncontrolled migration.",
+            "support": [
+              {
+                "article_id": "ART_F12F225136A2",
+                "sentence_id": "s001",
+                "quote": "Bombshell new One Nation proposal",
+                "stance": "right",
+                "check": {
+                  "status": "missing",
+                  "found_in": null,
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "headline, not article text",
+                  "fragment under 6 words"
+                ]
+              }
+            ],
+            "verified_support": [],
+            "status": "needs_review",
+            "human_review": "partly",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "no quote of 6+ words from this group"
+            ]
           }
         ],
         "status": "ok"
@@ -238,38 +832,38 @@
     "differences": [
       {
         "kind": "emphasis",
-        "description": "The left-leaning group emphasizes the need for more affordable housing options, while the centre group focuses on the economic and policy implications of the housing market. The right-leaning group is more focused on the economic and policy aspects of the housing market, criticizing the government's policies and highlighting the potential consequences of further interest rate hikes.",
+        "description": "The left-leaning group emphasizes the human impact of immigration policies, while the centre-leaning group covers a broader range of topics, including the government's efforts to address these issues. The right-leaning group focuses on the economic and security implications of immigration.",
         "support": [
           {
-            "article_id": "ART_B8775462894A",
-            "sentence_id": "s024",
-            "quote": "She argued the government instead needed to address housing demand by building more homes and ",
+            "article_id": "ART_7A8CDE5EFBC9",
+            "sentence_id": "s002",
+            "quote": "The Rohingya, a Muslim ethnic group, have lived in mainly Buddhist Myanmar for centuries, where they have suffered killings, forced evictions and other atrocities.",
             "stance": "left",
             "check": {
               "status": "exact",
-              "found_in": "s024",
+              "found_in": "s002",
               "cited_ok": true
             }
           },
           {
-            "article_id": "ART_A71E689D7582",
-            "sentence_id": "s005",
-            "quote": "Property's value can only grow as fast as buyers can afford to pay for it, and that's capped by wage growth.",
+            "article_id": "ART_E67F20F199C8",
+            "sentence_id": "s014",
+            "quote": "We need immigration to soften enough that housing has a chance to catch up,",
             "stance": "centre",
             "check": {
               "status": "exact",
-              "found_in": "s005",
+              "found_in": "s014",
               "cited_ok": true
             }
           },
           {
-            "article_id": "ART_B48B6DC7EE92",
-            "sentence_id": "s004",
-            "quote": "Before the budget, super was still better than investing in your own name because of the tax advantages that come with it.",
+            "article_id": "ART_5501D604B591",
+            "sentence_id": "s037",
+            "quote": "Income thresholds are indexed annually so wages for skilled migrants increase at the same rate as Australian workers,",
             "stance": "right",
             "check": {
               "status": "exact",
-              "found_in": "s004",
+              "found_in": "s037",
               "cited_ok": true
             }
           }
@@ -283,478 +877,41 @@
       },
       {
         "kind": "emphasis",
-        "description": "The centre group emphasizes the need for more housing supply to address affordability issues, while the right-leaning group is more focused on the economic and policy aspects of the housing market.",
+        "description": "The centre-leaning group emphasizes the government's efforts to address the challenges faced by international students, while the right-leaning group focuses on the economic and security implications of immigration.",
         "support": [
           {
-            "article_id": "ART_E53A3486822E",
-            "sentence_id": "s004",
-            "quote": "Exploring housing diversity, including smaller homes on smaller lots, will help boost housing supply and improve affordability,",
+            "article_id": "ART_495E1B58404F",
+            "sentence_id": "s024",
+            "quote": "We want this campus to be accessible to the best and brightest in India.",
             "stance": "centre",
             "check": {
-              "status": "missing",
-              "found_in": null,
-              "cited_ok": false
+              "status": "exact",
+              "found_in": "s024",
+              "cited_ok": true
             }
           },
           {
-            "article_id": "ART_9570D58C5F32",
-            "sentence_id": "s021",
-            "quote": "the government’s proposed changes to negative gearing was acting as the largest weight on house prices, even greater than this year’s interest rate rises.",
+            "article_id": "ART_5501D604B591",
+            "sentence_id": "s037",
+            "quote": "Income thresholds are indexed annually so wages for skilled migrants increase at the same rate as Australian workers,",
             "stance": "right",
             "check": {
               "status": "exact",
-              "found_in": "s021",
+              "found_in": "s037",
               "cited_ok": true
             }
           }
         ],
         "stances_cited": [
+          "centre",
           "right"
         ],
-        "status": "needs_review"
-      }
-    ],
-    "model": "llama3.1:8b",
-    "generated_at": "2026-10-12T08:24:42+00:00"
-  },
-  "immigration": {
-    "topic": "immigration",
-    "australia_only": true,
-    "articles_per_stance": {
-      "left": 26,
-      "centre": 13,
-      "right": 9
-    },
-    "articles_without_stance": 1,
-    "outlets_per_stance": {
-      "left": {
-        "Sydney Morning Herald": 10,
-        "ABC News": 8,
-        "The Guardian Australia": 4,
-        "7NEWS": 1,
-        "News.com.au": 1,
-        "SBS News": 1,
-        "The Age": 1
-      },
-      "centre": {
-        "7NEWS": 4,
-        "ABC News": 3,
-        "Sydney Morning Herald": 3,
-        "News.com.au": 1,
-        "SBS News": 1,
-        "The Age": 1
-      },
-      "right": {
-        "7NEWS": 3,
-        "ABC News": 2,
-        "Sydney Morning Herald": 2,
-        "News.com.au": 1,
-        "The Age": 1
-      }
-    },
-    "overview": "The topic of immigration is covered by three groups of articles with different stances: left, centre, and right. The left group consists of 26 articles from outlets such as the Sydney Morning Herald, ABC News, and The Guardian Australia. These articles tend to focus on the human-interest side of immigration, highlighting the struggles of refugees and asylum seekers, as well as the impact of immigration on Australian society. They also emphasize the need for a more compassionate and inclusive approach to immigration. For example, an article from the Sydney Morning Herald reports on the story of a refugee who was detained in Bali while awaiting deportation, highlighting the need for more humane treatment of migrants. Another article from the ABC News discusses the challenges faced by international students in Australia, including underpayment and exploitation. The left group also emphasizes the importance of immigration in contributing to Australia's economic growth and cultural diversity. For instance, an article from the Sydney Morning Herald reports on the success of the Australian immigration program, citing its ability to attract skilled workers and contribute to the country's economic growth. Overall, the left group's articles tend to focus on the human side of immigration and emphasize the need for a more compassionate and inclusive approach. They also highlight the economic benefits of immigration and the importance of maintaining a strong and diverse immigration program. ",
-    "stance_summaries": [
-      {
-        "stance": "left",
-        "summary": "The left group's articles tend to focus on the human side of immigration, emphasizing the need for a more compassionate and inclusive approach. They highlight the struggles of refugees and asylum seekers, as well as the impact of immigration on Australian society. The group also emphasizes the importance of immigration in contributing to Australia's economic growth and cultural diversity.",
-        "emphasis": "human-interest, compassion, inclusivity, economic growth, cultural diversity",
-        "key_claims": [
-          {
-            "claim": "Immigration is essential for Australia's economic growth and cultural diversity.",
-            "support": [
-              {
-                "article_id": "ART_68BA904019A2",
-                "sentence_id": "s016",
-                "quote": "That record catch-up year added 518,000 to Australia's population.",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s016",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_0AB2F2A5AF10",
-                "sentence_id": "s019",
-                "quote": "They look at what they call the pillars of the relationship, which includes financial aspects of the relationship, the nature of the household, the social aspects of the relationship, and the nature of the couple's commitment to each other,",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s019",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_68BA904019A2",
-                "sentence_id": "s016",
-                "quote": "That record catch-up year added 518,000 to Australia's population.",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s016",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_0AB2F2A5AF10",
-                "sentence_id": "s019",
-                "quote": "They look at what they call the pillars of the relationship, which includes financial aspects of the relationship, the nature of the household, the social aspects of the relationship, and the nature of the couple's commitment to each other,",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s019",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "no"
-          },
-          {
-            "claim": "Immigration has a positive impact on Australian society.",
-            "support": [
-              {
-                "article_id": "ART_7A8CDE5EFBC9",
-                "sentence_id": "s002",
-                "quote": "The Rohingya, a Muslim ethnic group, have lived in mainly Buddhist Myanmar for centuries, where they have suffered killings, forced evictions and other atrocities.",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s002",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_80673C1E9D38",
-                "sentence_id": "s022",
-                "quote": "I had one migrant worker describe [their accommodation] as 'not fit for an animal'.",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s022",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_7A8CDE5EFBC9",
-                "sentence_id": "s002",
-                "quote": "The Rohingya, a Muslim ethnic group, have lived in mainly Buddhist Myanmar for centuries, where they have suffered killings, forced evictions and other atrocities.",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s002",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_80673C1E9D38",
-                "sentence_id": "s022",
-                "quote": "I had one migrant worker describe [their accommodation] as 'not fit for an animal'.",
-                "stance": "left",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s022",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "no"
-          }
-        ],
         "status": "ok"
-      },
-      {
-        "stance": "centre",
-        "summary": "The centre group's articles tend to focus on the policy side of immigration, emphasizing the need for a more balanced approach. They highlight the challenges faced by migrants, including underpayment and exploitation, as well as the impact of immigration on Australian society. The group also emphasizes the importance of maintaining a strong and diverse immigration program. For instance, an article from the 7NEWS reports on the story of an Australian man who died in immigration detention in Bali, highlighting the need for more humane treatment of migrants. Another article from the ABC News discusses the challenges faced by international students in Australia, including underpayment and exploitation. The centre group also emphasizes the importance of immigration in contributing to Australia's economic growth and cultural diversity. For example, an article from the Sydney Morning Herald reports on the success of the Australian immigration program, citing its ability to attract skilled workers and contribute to the country's economic growth. Overall, the centre group's articles tend to focus on the policy side of immigration, emphasizing the need for a more balanced approach. They highlight the challenges faced by migrants, as well as the impact of immigration on Australian society. The group also emphasizes the importance of maintaining a strong and diverse immigration program. ",
-        "emphasis": "policy, balance, challenges, economic growth, cultural diversity",
-        "key_claims": [
-          {
-            "claim": "Immigration is essential for Australia's economic growth and cultural diversity.",
-            "support": [
-              {
-                "article_id": "ART_041B7EA0CFF0",
-                "sentence_id": "s003",
-                "quote": "The person concerned had received emergency medical treatment before finally being declared dead on the way to the hospital.",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s003",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_C956A4AFDAC0",
-                "sentence_id": "s008",
-                "quote": "We've been taxing away the family tax benefit and I'm a pro-child person so I think that's unfair,",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s008",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_041B7EA0CFF0",
-                "sentence_id": "s003",
-                "quote": "The person concerned had received emergency medical treatment before finally being declared dead on the way to the hospital.",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s003",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_C956A4AFDAC0",
-                "sentence_id": "s008",
-                "quote": "We've been taxing away the family tax benefit and I'm a pro-child person so I think that's unfair,",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s008",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "no"
-          },
-          {
-            "claim": "Immigration has a positive impact on Australian society.",
-            "support": [
-              {
-                "article_id": "ART_B53B6771FBBD",
-                "sentence_id": "s014",
-                "quote": "Australia would continue to be strong on borders and maintain the integrity of its migration system, while treating people with the fairness and decency that Australians expect.",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s014",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_8D44AD12EFE6",
-                "sentence_id": "s001",
-                "quote": "The Albanese government has quietly paused working holidaymaker visa applications from 24 countries as it seeks to wrest control of the migration system while a political stoush brews over whether to curtail the number of backpackers who come to Australia.",
-                "stance": "centre",
-                "check": {
-                  "status": "missing",
-                  "found_in": null,
-                  "cited_ok": false
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_B53B6771FBBD",
-                "sentence_id": "s014",
-                "quote": "Australia would continue to be strong on borders and maintain the integrity of its migration system, while treating people with the fairness and decency that Australians expect.",
-                "stance": "centre",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s014",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "no"
-          }
-        ],
-        "status": "ok"
-      },
-      {
-        "stance": "right",
-        "summary": "The right group's articles tend to focus on the security and economic side of immigration, emphasizing the need for a more restrictive approach. They highlight the challenges faced by migrants, including underpayment and exploitation, as well as the impact of immigration on Australian society. The group also emphasizes the importance of maintaining a strong and secure immigration program. For instance, an article from the 7NEWS reports on the story of an Australian man who died in immigration detention in Bali, highlighting the need for more secure treatment of migrants. Another article from the ABC News discusses the challenges faced by international students in Australia, including underpayment and exploitation. The right group also emphasizes the importance of immigration in contributing to Australia's economic growth and cultural diversity. For example, an article from the Sydney Morning Herald reports on the success of the Australian immigration program, citing its ability to attract skilled workers and contribute to the country's economic growth. Overall, the right group's articles tend to focus on the security and economic side of immigration, emphasizing the need for a more restrictive approach. They highlight the challenges faced by migrants, as well as the impact of immigration on Australian society. The group also emphasizes the importance of maintaining a strong and secure immigration program. ",
-        "emphasis": "security, restriction, challenges, economic growth, cultural diversity",
-        "key_claims": [
-          {
-            "claim": "Immigration is essential for Australia's economic growth and cultural diversity.",
-            "support": [
-              {
-                "article_id": "ART_21098433ADD2",
-                "sentence_id": "s005",
-                "quote": "We've had three times increase in the number of construction workers since we've come to government taking up those jobs.",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s005",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_C6E51BFB5116",
-                "sentence_id": "s004",
-                "quote": "Fearless, relentless, consistent, fighting for the Australian people and hopefully the next leader of her nation.",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s004",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_21098433ADD2",
-                "sentence_id": "s005",
-                "quote": "We've had three times increase in the number of construction workers since we've come to government taking up those jobs.",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s005",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_C6E51BFB5116",
-                "sentence_id": "s004",
-                "quote": "Fearless, relentless, consistent, fighting for the Australian people and hopefully the next leader of her nation.",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s004",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "partly"
-          },
-          {
-            "claim": "Immigration has a positive impact on Australian society.",
-            "support": [
-              {
-                "article_id": "ART_9381E2C20107",
-                "sentence_id": "s001",
-                "quote": "potentially",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s001",
-                  "cited_ok": true
-                }
-              },
-              {
-                "article_id": "ART_F12F225136A2",
-                "sentence_id": "s001",
-                "quote": "Bombshell new One Nation proposal",
-                "stance": "right",
-                "check": {
-                  "status": "missing",
-                  "found_in": null,
-                  "cited_ok": false
-                }
-              }
-            ],
-            "verified_support": [
-              {
-                "article_id": "ART_9381E2C20107",
-                "sentence_id": "s001",
-                "quote": "potentially",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s001",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "no"
-          }
-        ],
-        "status": "ok"
-      }
-    ],
-    "differences": [
-      {
-        "kind": "story_selection",
-        "description": "The left group's articles tend to focus on the human side of immigration, while the centre group's articles focus on the policy side, and the right group's articles focus on the security and economic side.",
-        "support": [
-          {
-            "article_id": "ART_68BA904019A2",
-            "sentence_id": "s016",
-            "quote": "That record catch-up year added 518,000 to Australia's population.",
-            "stance": "left",
-            "check": {
-              "status": "exact",
-              "found_in": "s016",
-              "cited_ok": true
-            }
-          },
-          {
-            "article_id": "ART_0AB2F2A5AF10",
-            "sentence_id": "s019",
-            "quote": "They look at what they call the pillars of the relationship, which includes financial aspects of the relationship, the nature of the household, the social aspects of the relationship, and the nature of the couple's commitment to each other,",
-            "stance": "left",
-            "check": {
-              "status": "exact",
-              "found_in": "s019",
-              "cited_ok": true
-            }
-          }
-        ],
-        "stances_cited": [
-          "left"
-        ],
-        "status": "needs_review"
       },
       {
         "kind": "emphasis",
-        "description": "The left group emphasizes the importance of compassion and inclusivity, while the centre group emphasizes the importance of balance and the right group emphasizes the importance of security and restriction.",
+        "description": "The right-leaning group emphasizes the need for stricter border controls and the potential risks of uncontrolled migration, while the left-leaning group focuses on the human impact of immigration policies.",
         "support": [
-          {
-            "article_id": "ART_041B7EA0CFF0",
-            "sentence_id": "s003",
-            "quote": "The person concerned had received emergency medical treatment before finally being declared dead on the way to the hospital.",
-            "stance": "centre",
-            "check": {
-              "status": "exact",
-              "found_in": "s003",
-              "cited_ok": true
-            }
-          },
-          {
-            "article_id": "ART_C956A4AFDAC0",
-            "sentence_id": "s008",
-            "quote": "We've been taxing away the family tax benefit and I'm a pro-child person so I think that's unfair,",
-            "stance": "centre",
-            "check": {
-              "status": "exact",
-              "found_in": "s008",
-              "cited_ok": true
-            }
-          }
-        ],
-        "stances_cited": [
-          "centre"
-        ],
-        "status": "needs_review"
-      },
-      {
-        "kind": "story_selection",
-        "description": "The right group's articles tend to focus on the security and economic side of immigration, while the centre group's articles focus on the policy side, and the left group's articles focus on the human side.",
-        "support": [
-          {
-            "article_id": "ART_21098433ADD2",
-            "sentence_id": "s005",
-            "quote": "We've had three times increase in the number of construction workers since we've come to government taking up those jobs.",
-            "stance": "right",
-            "check": {
-              "status": "exact",
-              "found_in": "s005",
-              "cited_ok": true
-            }
-          },
           {
             "article_id": "ART_C6E51BFB5116",
             "sentence_id": "s004",
@@ -765,98 +922,177 @@
               "found_in": "s004",
               "cited_ok": true
             }
+          },
+          {
+            "article_id": "ART_7A8CDE5EFBC9",
+            "sentence_id": "s002",
+            "quote": "The Rohingya, a Muslim ethnic group, have lived in mainly Buddhist Myanmar for centuries, where they have suffered killings, forced evictions and other atrocities.",
+            "stance": "left",
+            "check": {
+              "status": "exact",
+              "found_in": "s002",
+              "cited_ok": true
+            }
           }
         ],
         "stances_cited": [
+          "left",
           "right"
         ],
-        "status": "needs_review"
+        "status": "ok"
       }
     ],
     "model": "llama3.1:8b",
-    "generated_at": "2026-10-12T08:52:04+00:00"
+    "generated_at": "2026-10-14T13:37:49+00:00"
   },
   "clean_energy": {
     "topic": "clean_energy",
     "australia_only": true,
     "articles_per_stance": {
-      "left": 50,
-      "centre": 16,
-      "right": 5
+      "left": 47,
+      "centre": 21,
+      "right": 3
     },
     "articles_without_stance": 0,
     "outlets_per_stance": {
       "left": {
         "The Guardian Australia": 14,
-        "The Age": 12,
-        "Sydney Morning Herald": 10,
+        "The Age": 11,
         "ABC News": 9,
+        "Sydney Morning Herald": 9,
         "SBS News": 3,
-        "7NEWS": 1,
-        "News.com.au": 1
+        "7NEWS": 1
       },
       "centre": {
         "ABC News": 6,
-        "Sydney Morning Herald": 4,
+        "Sydney Morning Herald": 6,
+        "The Age": 4,
         "SBS News": 3,
-        "The Age": 2,
-        "7NEWS": 1
+        "7NEWS": 1,
+        "The Guardian Australia": 1
       },
       "right": {
-        "Sydney Morning Herald": 2,
-        "The Age": 1,
-        "News.com.au": 1,
-        "The Guardian Australia": 1
+        "News.com.au": 2,
+        "Sydney Morning Herald": 1
       }
     },
-    "overview": "The news coverage of clean energy differs between left, centre, and right groups of articles. The left group focuses on the government's efforts to promote renewable energy, with articles highlighting the benefits of solar and wind power, and criticizing the state government's scrapping of renewable energy targets. The centre group covers a range of topics, including the government's budget, the impact of wind farm woes on renewable energy targets, and the development of AI data centres. The right group focuses on the economic benefits of embracing the AI wave and the need for Australia to avoid missing out on this historic opportunity for growth and transformation. The right group also criticizes the government's net zero goals and the impact of renewable energy projects on regional communities.",
+    "overview": "Clean energy news coverage differs between left, centre, and right groups of articles. The left group focuses on policy process, economic consequences, and conflict, with articles discussing government funding for renewable energy projects, the impact of data centres on the environment, and the struggle for renewable energy in remote areas. The left group also highlights the importance of renewable energy in reducing greenhouse gas emissions and achieving net-zero targets. The centre group covers a range of topics, including economic consequences, security, and policy process, with articles discussing the impact of the budget on households, the fallout from the solar battery boom, and the government's plans to introduce mandatory standards for large data centres. The centre group also touches on the importance of renewable energy and the need for a balanced approach to energy policy. The right group is thin, with only three articles, and focuses on policy process, with articles discussing the government's plans to introduce mandatory standards for large data centres and the potential impact on the energy sector. Overall, the left group tends to emphasize the importance of renewable energy and the need for government action to achieve net-zero targets, while the centre group takes a more balanced approach, highlighting both the benefits and challenges of renewable energy. The right group is limited in scope and does not provide a clear stance on clean energy policy.",
     "stance_summaries": [
       {
         "stance": "left",
-        "summary": "The left group focuses on the government's efforts to promote renewable energy, with articles highlighting the benefits of solar and wind power, and criticizing the state government's scrapping of renewable energy targets. The group emphasizes the importance of transitioning to renewable energy sources and criticizes the state government's policies for hindering this transition. The articles also highlight the economic benefits of renewable energy, including job creation and cost savings for households and businesses. The group also covers the development of AI data centres, but with a focus on the need for these centres to use renewable energy and the importance of ensuring that they do not exacerbate the state's energy crisis. Overall, the left group presents a positive view of renewable energy and criticizes the state government's policies for hindering its development.",
-        "emphasis": "The government's efforts to promote renewable energy, the benefits of solar and wind power, and the importance of transitioning to renewable energy sources.",
+        "summary": "The left group focuses on policy process, economic consequences, and conflict, with articles discussing government funding for renewable energy projects, the impact of data centres on the environment, and the struggle for renewable energy in remote areas. The left group also highlights the importance of renewable energy in reducing greenhouse gas emissions and achieving net-zero targets.",
+        "emphasis": "The left group tends to emphasize the importance of renewable energy and the need for government action to achieve net-zero targets.",
         "key_claims": [
           {
-            "claim": "The government's efforts to promote renewable energy are crucial for the state's energy future.",
+            "claim": "Government funding for renewable energy projects is crucial for achieving net-zero targets.",
             "support": [
               {
-                "article_id": "ART_4C7FFB7E72A4",
-                "sentence_id": "s006",
-                "quote": "78 per cent of cobalt workers experienced forced labour, including deceptive recruitment, forced overtime and exposure to abuse conditions.",
+                "article_id": "ART_49ADA2F5E5C9",
+                "sentence_id": "s005",
+                "quote": "Palau has shown strong leadership on climate action and sustainable development, and Australia is proud to support those efforts,",
                 "stance": "left",
                 "check": {
                   "status": "exact",
-                  "found_in": "s006",
+                  "found_in": "s005",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
+              },
+              {
+                "article_id": "ART_DCFDEF626F69",
+                "sentence_id": "s003",
+                "quote": "At the same time, the CSIRO said the costs of gas-fired power were rising as insatiable demand for power from data centres caused a shortage of the giant turbines at the heart of gas plants.",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s003",
+                  "cited_ok": true
+                },
+                "evidence_notes": []
               }
             ],
             "verified_support": [
               {
-                "article_id": "ART_4C7FFB7E72A4",
-                "sentence_id": "s006",
-                "quote": "78 per cent of cobalt workers experienced forced labour, including deceptive recruitment, forced overtime and exposure to abuse conditions.",
+                "article_id": "ART_49ADA2F5E5C9",
+                "sentence_id": "s005",
+                "quote": "Palau has shown strong leadership on climate action and sustainable development, and Australia is proud to support those efforts,",
                 "stance": "left",
                 "check": {
                   "status": "exact",
-                  "found_in": "s006",
+                  "found_in": "s005",
+                  "cited_ok": true
+                }
+              },
+              {
+                "article_id": "ART_DCFDEF626F69",
+                "sentence_id": "s003",
+                "quote": "At the same time, the CSIRO said the costs of gas-fired power were rising as insatiable demand for power from data centres caused a shortage of the giant turbines at the heart of gas plants.",
+                "stance": "left",
+                "check": {
+                  "status": "exact",
+                  "found_in": "s003",
                   "cited_ok": true
                 }
               }
             ],
             "status": "ok",
-            "human_review": "no"
+            "human_review": "no",
+            "strict_status": "ok",
+            "strict_reasons": []
+          },
+          {
+            "claim": "Data centres have a significant impact on the environment and should be addressed through policy.",
+            "support": [
+              {
+                "article_id": "ART_E32721E91F2F",
+                "sentence_id": "s008",
+                "quote": "every month of delay exacerbates the volume of solar waste entering landfills, damaging public trust in renewable energy infrastructure",
+                "stance": "left",
+                "check": {
+                  "status": "missing",
+                  "found_in": null,
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "not in the cited article (found in ART_734A840DCCFC)"
+                ]
+              },
+              {
+                "article_id": "ART_E32721E91F2F",
+                "sentence_id": "s011",
+                "quote": "The more time goes on, the more panels are coming off roofs.",
+                "stance": "left",
+                "check": {
+                  "status": "missing",
+                  "found_in": null,
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "not in the cited article (found in ART_734A840DCCFC)"
+                ]
+              }
+            ],
+            "verified_support": [],
+            "status": "needs_review",
+            "human_review": "yes",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "same claim given to another group",
+              "no quote of 6+ words from this group"
+            ]
           }
         ],
         "status": "ok"
       },
       {
         "stance": "centre",
-        "summary": "The centre group covers a range of topics, including the government's budget, the impact of wind farm woes on renewable energy targets, and the development of AI data centres. The group presents a balanced view of the issues, highlighting both the benefits and challenges of renewable energy. The articles also cover the development of AI data centres, but with a focus on the need for these centres to use renewable energy and the importance of ensuring that they do not exacerbate the state's energy crisis. Overall, the centre group presents a nuanced view of the issues, highlighting both the benefits and challenges of renewable energy and the importance of ensuring that AI data centres use renewable energy. ",
-        "emphasis": "The government's budget, the impact of wind farm woes on renewable energy targets, and the development of AI data centres.",
+        "summary": "The centre group covers a range of topics, including economic consequences, security, and policy process, with articles discussing the impact of the budget on households, the fallout from the solar battery boom, and the government's plans to introduce mandatory standards for large data centres. The centre group also touches on the importance of renewable energy and the need for a balanced approach to energy policy.",
+        "emphasis": "The centre group takes a more balanced approach, highlighting both the benefits and challenges of renewable energy.",
         "key_claims": [
           {
-            "claim": "The government's budget is crucial for the state's energy future.",
+            "claim": "The budget has a significant impact on households and should be addressed through policy.",
             "support": [
               {
                 "article_id": "ART_15CA3D3B5954",
@@ -867,7 +1103,10 @@
                   "status": "exact",
                   "found_in": "s006",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": [
+                  "quoted speech: the claim should name the speaker"
+                ]
               }
             ],
             "verified_support": [
@@ -884,65 +1123,128 @@
               }
             ],
             "status": "ok",
-            "human_review": "partly"
+            "human_review": "unsure",
+            "strict_status": "ok",
+            "strict_reasons": []
+          },
+          {
+            "claim": "Data centres have a significant impact on the environment and should be addressed through policy.",
+            "support": [
+              {
+                "article_id": "ART_E32721E91F2F",
+                "sentence_id": "s008",
+                "quote": "every month of delay exacerbates the volume of solar waste entering landfills, damaging public trust in renewable energy infrastructure",
+                "stance": "left",
+                "check": {
+                  "status": "missing",
+                  "found_in": null,
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "not in the cited article (found in ART_734A840DCCFC)",
+                  "from a left article"
+                ]
+              },
+              {
+                "article_id": "ART_E32721E91F2F",
+                "sentence_id": "s011",
+                "quote": "The more time goes on, the more panels are coming off roofs.",
+                "stance": "left",
+                "check": {
+                  "status": "missing",
+                  "found_in": null,
+                  "cited_ok": false
+                },
+                "evidence_notes": [
+                  "not in the cited article (found in ART_734A840DCCFC)",
+                  "from a left article"
+                ]
+              }
+            ],
+            "verified_support": [],
+            "status": "needs_review",
+            "human_review": "no",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "same claim given to another group",
+              "no quote of 6+ words from this group"
+            ]
           }
         ],
         "status": "ok"
       },
       {
         "stance": "right",
-        "summary": "The right group focuses on the economic benefits of embracing the AI wave and the need for Australia to avoid missing out on this historic opportunity for growth and transformation. The group also criticizes the government's net zero goals and the impact of renewable energy projects on regional communities. The articles highlight the economic benefits of AI, including job creation and economic growth, and emphasize the need for Australia to embrace this technology to remain competitive. The group also criticizes the government's net zero goals, arguing that they are unrealistic and will harm the economy. Overall, the right group presents a positive view of AI and criticizes the government's policies for hindering its development.",
-        "emphasis": "The economic benefits of embracing the AI wave, the need for Australia to avoid missing out on this historic opportunity for growth and transformation, and the criticism of the government's net zero goals.",
+        "summary": "The right group is thin, with only three articles, and focuses on policy process, with articles discussing the government's plans to introduce mandatory standards for large data centres and the potential impact on the energy sector.",
+        "emphasis": "The right group does not provide a clear stance on clean energy policy.",
         "key_claims": [
           {
-            "claim": "Australia needs to embrace the AI wave to avoid missing out on a historic opportunity for growth and transformation.",
+            "claim": "The government's plans to introduce mandatory standards for large data centres are necessary for the energy sector.",
             "support": [
               {
-                "article_id": "ART_B722F17E22C9",
-                "sentence_id": "s001",
-                "quote": "Artificial intelligence is shaping as a historic wave of global transformation analogous to the fast-fading era of globalisation.",
-                "stance": "right",
+                "article_id": "ART_EA9D1EF76DBD",
+                "sentence_id": "s005",
+                "quote": "The federal government hopes to settle new energy and water rules for massive AI data centres at a national cabinet meeting this week.",
+                "stance": "centre",
                 "check": {
                   "status": "exact",
-                  "found_in": "s001",
+                  "found_in": "s005",
                   "cited_ok": true
-                }
+                },
+                "evidence_notes": [
+                  "from a centre article"
+                ]
               }
             ],
-            "verified_support": [
-              {
-                "article_id": "ART_B722F17E22C9",
-                "sentence_id": "s001",
-                "quote": "Artificial intelligence is shaping as a historic wave of global transformation analogous to the fast-fading era of globalisation.",
-                "stance": "right",
-                "check": {
-                  "status": "exact",
-                  "found_in": "s001",
-                  "cited_ok": true
-                }
-              }
-            ],
-            "status": "ok",
-            "human_review": "partly"
+            "verified_support": [],
+            "status": "needs_review",
+            "human_review": "yes",
+            "strict_status": "needs_review",
+            "strict_reasons": [
+              "thin group",
+              "no quote of 6+ words from this group"
+            ]
           }
         ],
-        "status": "ok"
+        "status": "needs_review"
       }
     ],
     "differences": [
       {
         "kind": "story_selection",
-        "description": "The left group focuses on the government's efforts to promote renewable energy, while the centre group covers a range of topics, including the government's budget and the development of AI data centres. The right group focuses on the economic benefits of embracing the AI wave and criticizes the government's net zero goals.",
+        "description": "The left group focuses on policy process, economic consequences, and conflict, while the centre group covers a range of topics, including economic consequences, security, and policy process. The right group is thin and focuses on policy process.",
         "support": [
           {
-            "article_id": "ART_4C7FFB7E72A4",
-            "sentence_id": "s006",
-            "quote": "78 per cent of cobalt workers experienced forced labour, including deceptive recruitment, forced overtime and exposure to abuse conditions.",
+            "article_id": "ART_49ADA2F5E5C9",
+            "sentence_id": "s005",
+            "quote": "Palau has shown strong leadership on climate action and sustainable development, and Australia is proud to support those efforts,",
             "stance": "left",
             "check": {
               "status": "exact",
-              "found_in": "s006",
+              "found_in": "s005",
               "cited_ok": true
+            }
+          },
+          {
+            "article_id": "ART_DCFDEF626F69",
+            "sentence_id": "s003",
+            "quote": "At the same time, the CSIRO said the costs of gas-fired power were rising as insatiable demand for power from data centres caused a shortage of the giant turbines at the heart of gas plants.",
+            "stance": "left",
+            "check": {
+              "status": "exact",
+              "found_in": "s003",
+              "cited_ok": true
+            }
+          },
+          {
+            "article_id": "ART_E32721E91F2F",
+            "sentence_id": "s008",
+            "quote": "every month of delay exacerbates the volume of solar waste entering landfills, damaging public trust in renewable energy infrastructure",
+            "stance": "left",
+            "check": {
+              "status": "missing",
+              "found_in": null,
+              "cited_ok": false
             }
           }
         ],
@@ -953,6 +1255,6 @@
       }
     ],
     "model": "llama3.1:8b",
-    "generated_at": "2026-10-12T08:10:21+00:00"
+    "generated_at": "2026-10-14T12:47:25+00:00"
   }
 }
