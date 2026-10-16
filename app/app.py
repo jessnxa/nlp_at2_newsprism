@@ -5,8 +5,11 @@ src/ modules, joined on article_id. Run from the repository root:
 
     streamlit run app/app.py
 """
+import ast
+import html
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 import altair as alt
@@ -19,6 +22,7 @@ SENTIMENT = ROOT / "notebooks" / "03_sentiment_language" / "Results" / "sentimen
 STANCE_LABELS = ROOT / "notebooks" / "05_framing_summarisation" / "stance_labels.csv"
 ENTITIES = ROOT / "data" / "enriched" / "topics_entities" / "article_entities.csv"
 CORPUS = ROOT / "data" / "processed" / "FINAL_newsprism_corpus.csv"
+WORDS = ROOT / "notebooks" / "03_sentiment_language" / "Results" / "language_analysis_results.csv"
 
 TOPICS = {"immigration": "Immigration policy", "housing": "Housing", "clean_energy": "Clean energy"}
 GROUPS = ["left", "centre", "right"]
@@ -54,6 +58,7 @@ NAME_KINDS = {
     "LOC": "Place",
     "ORG": "Organisation",
     "NORP": "Nationality or group",
+    "PLACE": "Place",
 }
 
 # Source type is not in the data. This grouping is our own classification of the seven publishers.
@@ -182,6 +187,39 @@ def topic_stances(topic):
 
 def model_note(text="Model-generated text. Check the source article before relying on it."):
     st.markdown(f"<div class='np-note'>{text}</div>", unsafe_allow_html=True)
+
+
+@st.cache_data
+def load_words():
+    return pd.read_csv(WORDS)[["article_id", "neg_words", "pos_words"]] if WORDS.exists() else None
+
+
+def top_words(words_df, column, n=10):
+    counts = Counter()
+    for raw in words_df[column].dropna():
+        try:
+            items = ast.literal_eval(raw)
+        except (ValueError, SyntaxError):
+            continue
+        counts.update(w.lower() for w in items if isinstance(w, str))
+    return counts.most_common(n)
+
+
+def word_cloud_html(items, colour):
+    if not items:
+        return "<div class='np-note'>No words to show for this selection.</div>"
+    top, low = items[0][1], items[-1][1]
+    spans = []
+    for word, count in items:
+        size = 15 + (count - low) / max(top - low, 1) * 25
+        spans.append(
+            f"<span title='{count} mentions' style='font-size:{size:.0f}px;color:{colour};"
+            f"font-weight:600;margin:0.25rem 0.6rem;display:inline-block'>{html.escape(word)}</span>"
+        )
+    return (
+        "<div style='background:#FFFFFF;border-radius:14px;padding:1.2rem;text-align:center;"
+        "box-shadow:0 1px 4px rgba(0,53,102,0.08);line-height:1.6'>" + "".join(spans) + "</div>"
+    )
 
 
 def sentiment_colour(score):
@@ -572,8 +610,33 @@ def tab_sentiment(topic, df):
     )
 
 
+def sentiment_words(df):
+    st.markdown("### Most common negative and positive words")
+    words = load_words()
+    if words is None:
+        st.info("The word-list results are not available yet.")
+        return
+    chosen = words[words["article_id"].isin(df["article_id"])]
+    if chosen.empty:
+        st.info("No articles match your filters.")
+        return
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**Twenty most common negative words**")
+        st.markdown(word_cloud_html(top_words(chosen, "neg_words", 20), SENT_COLOUR["Negative"]), unsafe_allow_html=True)
+    with col2:
+        st.markdown("**Twenty most common positive words**")
+        st.markdown(word_cloud_html(top_words(chosen, "pos_words", 20), SENT_COLOUR["Positive"]), unsafe_allow_html=True)
+    st.markdown(
+        "<div class='np-note'>Bigger words appear more often. Hover over a word to see its count. "
+        "Words are picked from a word list, not by reading each article, so a word can be marked positive "
+        "or negative even when it isn't used that way.</div>",
+        unsafe_allow_html=True,
+    )
+
+
 def tab_entities(df):
-    st.markdown("### Who and what is mentioned")
+    st.markdown("### People, Places, Nouns")
     ents = load_entities()
     if ents is None:
         st.info(
@@ -582,8 +645,8 @@ def tab_entities(df):
         return
     ents = ents[ents["article_id"].isin(df["article_id"])]
     top = ents.groupby(["entity", "type"])["article_id"].nunique().sort_values(ascending=False).head(25)
-    table = top.rename("Articles").reset_index().rename(columns={"entity": "Name", "type": "Kind"})
-    table["Kind"] = table["Kind"].map(NAME_KINDS).fillna(table["Kind"])
+    table = top.rename("Articles").reset_index().rename(columns={"entity": "Name", "type": "Description"})
+    table["Description"] = table["Description"].map(NAME_KINDS).fillna(table["Description"])
     st.caption("Number of articles mentioning each name.")
     st.dataframe(table, hide_index=True, width="stretch")
 
@@ -662,7 +725,7 @@ def main():
         st.info("No articles match your filters. Widen the date range, region, outlets or leaning in the sidebar.")
         return
 
-    tabs = st.tabs(["Overview", "Perspectives", "Outlets", "Stances", "Sentiment", "Who and what is mentioned", "Article", "About"])
+    tabs = st.tabs(["Overview", "Perspectives", "Outlets", "Stances", "Sentiment", "People, Places, Nouns", "Articles", "About"])
     with tabs[0]:
         tab_overview(topic, df)
     with tabs[1]:
@@ -673,6 +736,7 @@ def main():
         tab_stances(topic, df)
     with tabs[4]:
         tab_sentiment(topic, df)
+        sentiment_words(df)
     with tabs[5]:
         tab_entities(df)
     with tabs[6]:
